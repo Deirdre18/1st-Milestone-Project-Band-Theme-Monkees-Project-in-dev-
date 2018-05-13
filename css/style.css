@@ -19,7 +19,7 @@ body {
       opacity: 0.7;
   }
   .person:hover {
-      border-color:  #ff4d4d;
+      border-color:  red;
   }
   .carousel-inner img {
       width: 80%; /* Set width to 100% */
@@ -80,12 +80,12 @@ body {
   .modal-header, .modal-body {
       padding: 40px 50px;
   }
-  .nav-tabs li a {
+ .nav-tabs li a {
       color: #777;
   }
 
   .item img{ width:50%;
-             height:80%; 
+             height:30%; 
              padding-top: 15%;}
 
  
@@ -93,12 +93,7 @@ body {
 
 
 
-  #googleMap {
-      width: 100%;
-      height: 400px;
-      -webkit-filter: grayscale(100%);
-      filter: grayscale(100%);
-  }  
+  
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
@@ -110,7 +105,7 @@ body {
       padding-bottom: 30px;
   }
   .navbar li a, .navbar .navbar-brand { 
-      color: #d5d5d5 !important;
+      color:  red !important;
   }
   .navbar-nav li a:hover {
       color: #fff !important;
@@ -150,3 +145,29 @@ body {
   textarea {
       resize: none;
   }
+  
+  
+  .social-links {
+    padding-bottom: 15px;
+}
+/*use border-radius to create perfect circle around edges, which will be semi-transparent.  Setting border-radious to 50% and styling font-awesome icon, as well as reusing transition hover effects for .cv-pdf hover.*/
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+/*set hover for social-links using hover pseudo class. Set bg-color same as cv-pdf icon */
+.social-links li a i:hover {
+    background:  red;
+}
