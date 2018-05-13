@@ -19,13 +19,13 @@ body {
       opacity: 0.7;
   }
   .person:hover {
-      border-color: #f1f1f1;
+      border-color:  #ff4d4d;
   }
   .carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      margin: auto;
-      height: 50%;
-      
+      width: 80%; /* Set width to 100% */
+      margin:auto;
+      height: 100%;
+     
       
   }
   .carousel-caption h3 {
@@ -86,7 +86,7 @@ body {
 
   .item img{ width:50%;
              height:80%; 
-             padding-top: 20%;}
+             padding-top: 10%;}
 
  
 
