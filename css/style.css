@@ -81,7 +81,7 @@ body {
       padding: 40px 50px;
   }
  .nav-tabs li a {
-      color: #777;
+      color: red;
   }
 
   .item img{ width:50%;
@@ -176,3 +176,5 @@ body {
 }
 
 .container {color: black;}
+
+.general {color: red;}
