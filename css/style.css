@@ -42,29 +42,23 @@ body {
     .img-responsive {
       width: 100%;
       height: auto;
-    }
-    }
-  }
-  
-  
-  @media (max-width: 767px){
-  .mobile {
-    background-color: #ffad33;
+      overflow: auto;
     }
   }
+ 
   
-   @media (min-width: 768px) and (max-width: 991px) {
-  .tablet {
-    background-color: #ffd9b3;
-  
+  @media only screen and (max-width: 768px) {
+    body {
+        background-color: green;
     }
-  }
-  
-   @media (min-width: 992px) and (max-width: 1800px) {
-  .desktop {
-    background-color: #ffd9b3;
+}
+
+
+ @media only screen and (max-width: 600px) {
+    body {
+        background-color: red;
     }
-  }
+}
   
   .bg-1 {
       background: #2d2d30;
@@ -141,14 +135,14 @@ body {
       overflow: auto;
 }
 
-  }
-  .navbar li a, .navbar .navbar-brand { 
+  
+  .navbar-nav li a { 
       color:  red !important;
   }
   .navbar-nav li a:hover {
       color: #fff !important;
   }
-  .navbar-nav li.active a {
+  .navbar-nav .active a {
       color: #fff !important;
       background-color: #29292c !important;
   }
