@@ -189,7 +189,11 @@ body {
       resize: none;
   }
   
-  
+  .embed-responsive-item src {
+    
+    max-width: 100%;
+    height: auto;
+}
   .social-links {
     padding-bottom: 15px;
 }
