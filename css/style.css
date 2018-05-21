@@ -189,7 +189,10 @@ body {
       resize: none;
   }
   
-  
+  video {
+    max-width: 100%;
+    height: auto;
+}
   .social-links {
     padding-bottom: 15px;
 }
