@@ -8,6 +8,7 @@ body {
       font-size: 20px;
       color: #111;
   }
+  
   .container {
       padding: 80px 120px;
   }
@@ -25,9 +26,10 @@ body {
       width: 80%; /* Set width to 100% */
       margin:auto;
       height: 100%;
-     
-      
-  }
+    }
+    
+ 
+  
   .carousel-caption h3 {
       color: #fff !important;
   }
@@ -144,6 +146,7 @@ body {
       opacity: 1;
       padding-bottom: 30px;
       overflow: auto;
+      width: 100%;
 }
 
   
@@ -173,7 +176,11 @@ body {
   footer {
       background-color: black;
       color: black;
-      padding: 25px;
+      opacity: 1;
+      width: 100%;
+     
+      
+     
   }
   footer a {
       color: #f5f5f5;
@@ -214,6 +221,9 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+
+
+    
 /*set hover for social-links using hover pseudo class. Set bg-color same as cv-pdf icon */
 .social-links li a i:hover {
     background:  red;
