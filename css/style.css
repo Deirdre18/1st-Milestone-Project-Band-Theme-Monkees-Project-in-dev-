@@ -237,6 +237,8 @@ body {
 
 .general {color: red;}
 
+
+
 $(document).ready(function(){
   // Initialize Tooltip
   $('[data-toggle="tooltip"]').tooltip(); 
