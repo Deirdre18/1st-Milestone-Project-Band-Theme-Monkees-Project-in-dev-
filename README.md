@@ -21,7 +21,11 @@ I hope to update my website with newer releases and new articles. The site, at p
 
 TESTING:
 
-From a testing view-point, I've tested responsiveness on both mobile and desktop, in a variety of screen sizes. Further testing will be undertaken and I hope also to improve on navigation controls for users to easily navigate forward and back through controls either side of the screen, rather than having to return to navbar to click on another link. Further tests will be done throughout to test functionality before submission
+From a testing view-point, I've tested responsiveness on both mobile and desktop, in a variety of screen sizes. Further testing will be undertaken and I hope also to improve on navigation controls for users to easily navigate forward and back through controls either side of the screen, rather than having to return to navbar to click on another link. Further tests will be done throughout to test functionality before submission.
+
+I have tested the MP4 HD video ("Daydream Believer") and it plays on Firefox and Internet Explorer, however there is a problem playing it on Chrome browser, due to codecs issue. I have not yet tested it on Chrome, Safari, Opera.
+
+I have tested the website on a variety of devices using firefox dev tools (responsive mode) - Apple iPad Air2, Apple iPad Mini2, Apple iPad iPhone 6s, Google nexus 4,5,6,7, Laptop (1280 x 720 and 1366 x 768), Nokia Lumia 520, Samsung Galaxy Note 3, Samsung Galaxy S5 and S7. Also tested on Desktop. 
 
 GITHUB:
 
