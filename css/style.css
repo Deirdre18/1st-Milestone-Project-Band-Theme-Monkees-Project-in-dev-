@@ -247,11 +247,12 @@ body {
 .website {color: red;
 }
 
+
 .container {color: black;}
 
 .general {color: red;}
 
-
+.text-center {margin-top: 50px;}
 
 $(document).ready(function(){
   // Initialize Tooltip
