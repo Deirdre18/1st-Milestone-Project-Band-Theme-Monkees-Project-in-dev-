@@ -247,6 +247,13 @@ body {
 .website {color: red;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 
 .container {color: black;}
 
