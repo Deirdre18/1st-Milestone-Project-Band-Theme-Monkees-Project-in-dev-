@@ -32,5 +32,5 @@ GITHUB:
 I used version control on an ongoing basis to back-up my code to a remote repository and used version control at regular intervals throughout development.
 
 DEPLOYMENT:
-This is the website deployed link, but still have improvements to make on this website before submission. 
-https://deirdre18.github.io/Monkees-Project-in-dev-/
+This is the website deployed link, but still have some improvements to make on this website before submission. 
+The Monkees Website - https://deirdre18.github.io/Monkees-Project-in-dev-/
