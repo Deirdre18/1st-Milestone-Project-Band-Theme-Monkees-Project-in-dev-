@@ -25,21 +25,27 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
+     <!-- <div class="row news-flash color-home">Get the latest - <a href="/sign-up" data-toggle='modal' data-target='#signUpModal'>Join our Fan Club here!</a></div>-->
+     <div class="signUpNow  id="signUp"><a href="/sign-up" data-toggle='modal' data-target='#signUpModal'>Sign-Up Now and get our latest news & offers!!!!</a></div>
       <a class="navbar-brand"> <img src="assets/images/logo2.png" class="img-responsive" alt="The Monkees" height="50"  width="100"></a>
     </div>
     
     <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><i class="fa fa-home "></i><strong>Home</strong></a></li>
+            <li><a href="index.html"><i class="fa fa-home aria-hidden="true"></i><strong>Home</strong></a></li>
          
-            <li><a href="video.html"><i class="fa fa-video-camera "></i><strong>Video</strong></a></li>
+            <li><a href="video.html"><i class="fa fa-video-camera aria-hidden="true"></i><strong>Video</strong></a></li>
           
-            <li><a href="audio.html"><i class="fa fa-headphones "></i><strong>Audio</strong></a></li>
+            <li><a href="audio.html"><i class="fa fa-headphones aria-hidden="true"></i><strong>Audio</strong></a></li>
           
-            <li><a href="bookings.html"><i class="fa fa-book "></i><strong>Bookings</strong></a></li>
+            <li><a href="bookings.html"><i class="fa fa-book aria-hidden="true"></i><strong>Bookings</strong></a></li>
           
-            <li><a href="contact.html"><i class="fa fa-phone"></i><strong>Contact</strong></a></li>
-          
+            <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i></i><strong>Contact</strong></a></li>
+            
+            <li><a href="#loginModal" data-toggle='modal' data-target='#loginModal'><i class="fa fa-sign-in"><strong>Login</strong></a></li></i>
+             
+            
+   
           </ul>
        </div>
   </div>
@@ -128,7 +134,7 @@
       </div>
       </div>
       
-    </div>
+  </div>
       
     
       
@@ -156,7 +162,7 @@
   <i class="fa fa-spinner fa-spin" style="font-size:24px" aria-hidden="true"></i>  Want to contact us, head over to <a href="contact.html"><strong>Contact</strong></a> <br><br>
   
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo mike nesbit">
       <p class="text-center"><strong>Mike Nesbit</strong></p><br>
       <a href="#demo" data-toggle="collapse">
         <img src="assets/images/mn.jpg" class="img-circle person" alt="Mike Nesbit" width="100" height="100">
@@ -167,17 +173,19 @@
         <p>Member since 1988</p>
       </div>
     </div>
-    <div class="col-sm-3">
-      <p class="text-center"><strong>Micky Donlez</strong></p><br>
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo micky dolenz">
+     
+      <p class="text-center"><strong>Micky Dolenz</strong></p><br>
       <a href="#demo2" data-toggle="collapse">
-        <img src="assets/images/md.jpg" class="img-circle person" img class="img-responsive" alt="Micky Donlez" width="100" height="100">
+        <img src="assets/images/md.jpg" class="img-circle person" img class="img-responsive" alt="Micky Dolenz" width="100" height="100">
       </a>
       <div id="demo2" class="collapse">
         <p>Loves music</p>
         <p>Member since 1966</p>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo davy jones">
+     
       <p class="text-center"><strong>Davy Jones</strong></p><br>
       <a href="#demo3" data-toggle="collapse">
         <img src="assets/images/dj.jpg" class="img-circle person" img class="img-responsive" alt="Davy Jones" width="100" height="100">
@@ -187,7 +195,8 @@
         <p>Member since 1966</p>
       </div>
     </div>
-    <div class="col-sm-3">
+    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo peter tork">
+     
       <p class="text-center"><strong>Peter Tork</strong></p><br>
       <a href="#demo3" data-toggle="collapse">
         <img src="assets/images/pt.jpg" class="img-circle person" img class="img-responsive" alt="Peter Tork" width="100" height="100">
@@ -202,8 +211,8 @@
 
 
   
-<!-- Container (Contact Section) -->
-<div id="contact" class="container">
+<!-- Container (Fan Comments Section) -->
+<div id="fans" class="container">
   <h3 class="text-center">Comments from our Fans!</h3>
   <p class="text-center"><em>We love our fans!</em></p>
 
@@ -233,26 +242,89 @@
 </div>
 
 <footer class="text-center fixed-bottom">
-  <!--<div id="footer" class="container text-center fixed bottom"-->
+  <div id="footer" class="container text-center fixed bottom">
  
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a><br><br>
-  <p class="website">2018@The Monkees | About | Privacy Policy | Terms of Use | Contact</p> 
+  
+  
+  <div class="fan sign-up col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <a href="/login" data-toggle='modal' data-target='#signUpModal'>Become a Monkee's Fan now! Sign-up here!
+            </div></a>
+  
+  <p class="website">2018@The Monkees | <a href="#band">About</div> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a> | Created by Deirdre Weldon
 
 
          <div id="footer-details " class="row ">
-           <div class="col-lg-1 ">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social media">
                 <h5 class="general">Like us on Social Media!</h5>
                 <ul class="list-inline social-links ">
-                    <li><a target="_blank " href="https://www.facebook.com/"><i class="fa fa-facebook "></i></a></li>
-                    <li><a target="_blank " href="https://twitter.com/"><i class="fa fa-twitter "></i></a></li>
-                    <li><a target="_blank " href="https://www.youtube.com/"><i class="fa fa-youtube "></i></a></li>
+                    <li><a target="_blank " href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook "></i></a></li>
+                    <li><a target="_blank " href="https://twitter.com/TheMonkees?lang=en"><i class="fa fa-twitter "></i></a></li>
+                    <li><a target="_blank " href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube "></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
+    
+    
+    
+<!-- SIGN-UP MODAL -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Sign Up to the Fan Club</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                      <form action="sign-up.html">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+    <!-- LOGIN MODAL -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button-login" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                      <form action="login.html">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="password" required>
+                            
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        
+                       
+                        <button type="Login" class="btn btn-success">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>   
    
+   
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 

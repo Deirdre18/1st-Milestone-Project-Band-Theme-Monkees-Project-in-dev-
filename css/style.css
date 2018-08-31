@@ -1,6 +1,6 @@
 body {
       font: 400 15px/1.8 Lato, sans-serif;
-      background-color: #ffad33;
+      background-color: lightgreen;
   }
   h3, h4 {
       margin: 10px 0 30px 0;
@@ -13,7 +13,7 @@ body {
   .person {
       border: 10px solid transparent;
       margin-bottom: 50px;
-      width: 70%;
+      width: 100%;
       height: 100%;
       opacity: 0.7;
   }
@@ -28,7 +28,7 @@ body {
 
     }
     
- .audio-placeholder img { 
+ .audio-placeholder img {  
       width: 260px; 
       margin:auto;
       height: 240px;
@@ -36,6 +36,7 @@ body {
 
     }
   
+  .container-fluid-thank-you{ margin-top: 50%; }
 
   .carousel-caption h3 {
       color: #fff !important;
@@ -47,22 +48,19 @@ body {
     }
   }
   
- /* Extra small devices (phones, 600px and down) */
+ /* Extra small devices (phones, 600px and down) 
   @media only screen and (max-width: 600px) {
+    body {background-color: lightblue;}
+      
+  /* Small devices (portrait tablets and large phones, 600px and up)
+  @media only screen and (min-width: 600px) {
     body {background-color: pink;
       
     }
 }
 
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    body {background-color: green;
-      
-    }
-}
 
-
-  /* Medium devices (landscape tablets, 768px and up) */
+  /* Medium devices (landscape tablets, 768px and up) 
   @media only screen and (min-width: 768px) {
     body {background-color: blue;
       
@@ -70,7 +68,7 @@ body {
 } 
 
 
-  /* Large devices (laptops/desktops, 992px and up) */
+  /* Large devices (laptops/desktops, 992px and up) 
   @media only screen and (min-width: 992px) {
     body {background-color: red;
       
@@ -78,15 +76,17 @@ body {
 } 
 
 
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  /* Extra large devices (large laptops and desktops, 1200px and up) 
   @media only screen and (min-width: 1200px) {
     body {background-color: lightblue;
       
     }
 }
 
+*/
   
-  .bg-1 {
+  
+/*  .bg-1 {
       background: #2d2d30;
       color: #bdbdbd;
   }
@@ -130,29 +130,47 @@ body {
   .modal-header, .modal-body {
       padding: 40px 50px;
   }
- .nav-tabs li a {
-      color: red;
-      background-color: black;
+  */
+  
+.nav-tabs li a {
+      color: blue;
+      background-color: green;
   }
+#contact {margin-top: 100px;}
+
+#signUpNow {
+  color: white;
+   text-align: center;
+}
+
+.signUpNow a {
+  color: white;
+  text-align: center;
   
+}
+
+.fan sign-up a {
+  color: white;
+  
+}
   
 
 
-  .item img{ width:50%;
+.item img{ width:50%;
              height:30%; 
              padding-top: 15%;}
 
-  .navbar {
-      font-family: Montserrat, sans-serif;
-      margin-bottom: 0;
-      background-color: black;
-      border: 0;
-      font-size: 12px !important;
-      letter-spacing: 4px;
-      opacity: 1;
-      padding-bottom: 30px;
-      overflow: auto;
-      width: 100%;
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: green;
+  border: 0;
+  font-size: 12px !important;
+  letter-spacing: 4px;
+  opacity: 1;
+  padding-bottom: 30px;
+  overflow: auto;
+  width: 100%;
 }
 
   
@@ -169,21 +187,12 @@ body {
   .navbar-default .navbar-toggle {
       background-color: transparent;
   }
-  .open .dropdown-toggle {
-      color: #fff;
-      background-color: #555 !important;
-  }
-  .dropdown-menu li a {
-      color: #000 !important;
-  }
-  .dropdown-menu li a:hover {
-      background-color: red !important;
-  }
+  
   footer {
       
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
-      background-color: black;
+      background-color: green;
       border: 0;
       font-size: 12px !important;
       letter-spacing: 4px;
@@ -219,6 +228,11 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+
+
+
+
   .social-links {
     padding-bottom: 15px;
 }
@@ -240,7 +254,7 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
-
+#terms-of-use {overflow-x: auto;}
     
 /*set hover for social-links using hover pseudo class. Set bg-color same as cv-pdf icon */
 .social-links li a i:hover {
