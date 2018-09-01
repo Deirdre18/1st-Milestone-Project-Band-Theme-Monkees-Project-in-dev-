@@ -10,7 +10,7 @@ body {
       text-align: center;
   }
   
-  #myCarousel {margin-top: -150px; margin-bottom: auto;}
+  #myCarousel {margin: auto;}
   
   .person {
       border: 5px solid green;
@@ -161,16 +161,17 @@ body {
   
 }
   
-#terms-of-use {margin-top:170px;}
 
 .acceptance a {color: red;}
 
-.confirm{align:text-center;}
+.confirm{align:text-center;
+        margin-top: 5px;
+}
 
-.confirmation{display:block;}
-
+#terms-of-use{display:block;}
 
 .website {text-align: center;}
+
 .website a {color: white;}
 
 
