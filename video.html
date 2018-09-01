@@ -12,7 +12,18 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
  
- 
+<style>
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+</style>
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -25,51 +36,30 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-     <!-- <div class="row news-flash color-home">Get the latest - <a href="/sign-up" data-toggle='modal' data-target='#signUpModal'>Join our Fan Club here!</a></div>-->
-     <div class="signUpNow  id="signUp"><a href="/sign-up" data-toggle='modal' data-target='#signUpModal'>Sign-Up Now and get our latest news & offers!!!!</a></div>
+     
       <a class="navbar-brand"> <img src="assets/images/logo2.png" class="img-responsive" alt="The Monkees" height="50"  width="100"></a>
     </div>
     
     <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><i class="fa fa-home aria-hidden="true"></i><strong>Home</strong></a></li>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><strong>Home</strong></a></li>
          
-            <li><a href="video.html"><i class="fa fa-video-camera aria-hidden="true"></i><strong>Video</strong></a></li>
+            <li><a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i><strong>Video</strong></a></li>
           
-            <li><a href="audio.html"><i class="fa fa-headphones aria-hidden="true"></i><strong>Audio</strong></a></li>
+            <li><a href="audio.html"><i class="fa fa-headphones" aria-hidden="true"></i><strong>Audio</strong></a></li>
           
-            <li><a href="bookings.html"><i class="fa fa-book aria-hidden="true"></i><strong>Bookings</strong></a></li>
+            <li><a href="bookings.html"><i class="fa fa-book" aria-hidden="true"></i><strong>Bookings</strong></a></li>
           
             <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i></i><strong>Contact</strong></a></li>
             
-            <li><a href="#loginModal" data-toggle='modal' data-target='#loginModal'><i class="fa fa-sign-in"><strong>Login</strong></a></li></i>
-             
+            <li><a data-toggle="modal" href="#loginModal"><i class="fa fa-sign-in" aria-hidden="true"></i><strong>Login</strong></a></li>
             
-   
+            <li><a data-toggle="modal" href="#signUpModal"><i class="fa fa-registered" aria-hidden="true"></i><strong>Sign-Up</strong></a></li>
+         
           </ul>
-       </div>
+    </div>
   </div>
-  
 </nav>
-
-
-<!--<div class="container text-center">
-  <h3 class=text-center>Daydream Believer</h3>
-  
-  <div class="embed-responsive embed-responsive-16by9">-->
-    
-    
-<!--This is an MP4 HD video. It plays on Firefox and Internet Explorer, however there is a problem playing it on Chrome browser, due to codecs issue.
-I have not yet tested it on Chrome, Safari, Opera.-->
-<!--<video width="288" height="216" autoplay controls>
-	<source src="assets/video/Monkees.mp4" type="video/mp4">
-	
-</video>
-    
-</div>
-</div>-->
-
-
 
 
 
@@ -95,7 +85,8 @@ I have not yet tested it on Chrome, Safari, Opera.-->
     </div>
 </section>
 
-<<footer class="text-center fixed-bottom">
+
+<footer class="text-center fixed-bottom">
   <div id="footer" class="container text-center fixed bottom">
  
   <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
@@ -104,10 +95,10 @@ I have not yet tested it on Chrome, Safari, Opera.-->
   
   
   <div class="fan sign-up col-xs-12 col-sm-12 col-md-12 col-lg-12">
-  <a href="/login" data-toggle='modal' data-target='#signUpModal'>Become a Monkee's Fan now! Sign-up here!
+  <a data-toggle='modal' data-target='#signUpModal'>Become a Monkee's Fan now! Sign-up here!
             </div></a>
   
-  <p class="website">2018@The Monkees | <a href="#band">About</div> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a> | Created by Deirdre Weldon
+  <p class="website"> ©2018The Monkees | Created by Deirdre Weldon | <br><a href="#band">About</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a> | </p>
 
 
          <div id="footer-details " class="row ">
@@ -120,62 +111,140 @@ I have not yet tested it on Chrome, Safari, Opera.-->
                 </ul>
             </div>
         </div>
-    </footer>
+        
+</footer>
     
+<!--SIGN-UP MODAL EXAMPLE (TAKEN FROM W3 SCHOOLS)-->
+
+
+
+
+  <!--LOGIN MODEL-->
+  <div class="modal fade" id="loginModal" role="dialog">
+    <div class="modal-dialog">
     
-    
-<!-- SIGN-UP MODAL -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Sign Up to the Fan Club</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                      <form action="sign-up.html">
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
-                            <p class="help-block">We'll never share your email address with anyone</p>
-                        </div>
-                        <button type="submit" class="btn btn-success">Sign Up!</button>
-                    </form>
-                </div>
-            </div>
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
         </div>
-    </div>   
-    
-    <!-- LOGIN MODAL -->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button-login" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Login</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                      <form action="login.html">
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
-                            
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="password" required>
-                            
-                            <p class="help-block">We'll never share your email address with anyone</p>
-                        </div>
-                        
-                       
-                        <button type="Login" class="btn btn-success">Sign Up!</button>
-                    </form>
-                </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
             </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
         </div>
-    </div>   
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Not a member? <a data-toggle="modal" href="#signUpModal">Sign-Up!
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+  
+<!--SIGN-UP MODAL-->
+ <div class="modal fade" id="signUpModal" role="dialog">
+    <div class="modal-dialog">
     
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Sign-Up</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+			<div class="form-group">
+			   <label for="psw-repeat"><b>Repeat Password</b></label>
+			   <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			</div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+			
+			<p>By creating an account you agree to our <a href="terms-of-use.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+			
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		  <p>Forgot <a href="#reset-password">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+</div> 
+
+
+    
+    
+
+   
+<!--JQUERY FOR MODAL-->
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>   
+
+
+<!--JQUERY FOR TOOLTIP, TO ADD SMOOTH SCROLLING-->
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 

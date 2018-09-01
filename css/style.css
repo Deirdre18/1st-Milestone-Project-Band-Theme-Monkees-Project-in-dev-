@@ -10,8 +10,10 @@ body {
       text-align: center;
   }
   
+  #myCarousel {margin-top: -150px; margin-bottom: auto;}
+  
   .person {
-      border: 10px solid transparent;
+      border: 5px solid green;
       margin-bottom: 50px;
       width: 100%;
       height: 100%;
@@ -24,7 +26,7 @@ body {
       width: 80%; /* Set width to 80% */
       margin:auto;
       height: 100%;
-      margin-top: 100px;
+      margin-top: 10px;
 
     }
     
@@ -35,8 +37,11 @@ body {
       margin-top: 100px;
 
     }
+    
+
+/*.confirm {text-align: left;} */ 
   
-  .container-fluid-thank-you{ margin-top: 50%; }
+  /*.container-fluid-thank-you{ margin-top: 50%; }*/
 
   .carousel-caption h3 {
       color: #fff !important;
@@ -131,7 +136,9 @@ body {
       padding: 40px 50px;
   }
   */
-  
+
+.terms li i {color: red;}
+
 .nav-tabs li a {
       color: blue;
       background-color: green;
@@ -154,6 +161,17 @@ body {
   
 }
   
+#terms-of-use {margin-top:170px;}
+
+.acceptance a {color: red;}
+
+.confirm{align:text-center;}
+
+.confirmation{display:block;}
+
+
+.website {text-align: center;}
+.website a {color: white;}
 
 
 .item img{ width:50%;
@@ -198,7 +216,6 @@ body {
       letter-spacing: 4px;
       opacity: 1;
       padding-bottom: 30px;
-      overflow: auto;
       width: 100%;
 
 
@@ -254,8 +271,7 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
-#terms-of-use {overflow-x: auto;}
-    
+  
 /*set hover for social-links using hover pseudo class. Set bg-color same as cv-pdf icon */
 .social-links li a i:hover {
     background:  red;
@@ -278,31 +294,4 @@ body {
 
 .text-center {margin-top: 80px;}
 
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-})
+#register {color: red;}

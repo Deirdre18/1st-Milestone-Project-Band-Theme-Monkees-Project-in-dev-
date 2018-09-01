@@ -12,7 +12,18 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
  
- 
+<style>
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+</style>
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -25,98 +36,126 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <div class="row news-flash color-home">Get the latest - <a href="/login" data-toggle='modal' data-target='#signUpModal'>Join our Fan Club here!</a></div>
+     
       <a class="navbar-brand"> <img src="assets/images/logo2.png" class="img-responsive" alt="The Monkees" height="50"  width="100"></a>
     </div>
     
     <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><i class="fa fa-home "></i><strong>Home</strong></a></li>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><strong>Home</strong></a></li>
          
-            <li><a href="video.html"><i class="fa fa-video-camera "></i><strong>Video</strong></a></li>
+            <li><a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i><strong>Video</strong></a></li>
           
-            <li><a href="audio.html"><i class="fa fa-headphones "></i><strong>Audio</strong></a></li>
+            <li><a href="audio.html"><i class="fa fa-headphones" aria-hidden="true"></i><strong>Audio</strong></a></li>
           
-            <li><a href="bookings.html"><i class="fa fa-book "></i><strong>Bookings</strong></a></li>
+            <li><a href="bookings.html"><i class="fa fa-book" aria-hidden="true"></i><strong>Bookings</strong></a></li>
           
-            <li><a href="contact.html"><i class="fa fa-phone"></i><strong>Contact</strong></a></li>
+            <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i></i><strong>Contact</strong></a></li>
             
-            <li><a href="login.html"><i class="fa fa-sign-in"></i><strong>Login</strong></a></li>
+            <li><a data-toggle="modal" href="#loginModal"><i class="fa fa-sign-in" aria-hidden="true"></i><strong>Login</strong></a></li>
+            
+            <li><a data-toggle="modal" href="#signUpModal"><i class="fa fa-registered" aria-hidden="true"></i><strong>Sign-Up</strong></a></li>
+         
+          </ul>
+    </div>
+  </div>
+</nav>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     <!-- <div class="row news-flash color-home">Get the latest - <a href="/sign-up" data-toggle='modal' data-target='#signUpModal'>Join our Fan Club here!</a></div>-->
+     <div class="signUpNow  id="signUp"><a href="/sign-up" data-toggle='modal' data-target='#signUpModal'>Sign-Up Now and get our latest news & offers!!!!</a></div>
+      <a class="navbar-brand"> <img src="assets/images/logo2.png" class="img-responsive" alt="The Monkees" height="50"  width="100"></a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html"><i class="fa fa-home aria-hidden="true"></i><strong>Home</strong></a></li>
+         
+            <li><a href="video.html"><i class="fa fa-video-camera aria-hidden="true"></i><strong>Video</strong></a></li>
           
+            <li><a href="audio.html"><i class="fa fa-headphones aria-hidden="true"></i><strong>Audio</strong></a></li>
+          
+            <li><a href="bookings.html"><i class="fa fa-book aria-hidden="true"></i><strong>Bookings</strong></a></li>
+          
+            <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i></i><strong>Contact</strong></a></li>
+            
+            <li><a href="#loginModal" data-toggle='modal' data-target='#loginModal'><i class="fa fa-sign-in"><strong>Login</strong></a></li></i>
+            
           </ul>
        </div>
   </div>
   
 </nav>
 
- <section class="container-fluid">
+
+<div id="terms-of-use" class="container text center">
+
+<div id="confirmation">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 thank you for siging-up please read terms of use">
-                <h2>Thank you for signing up as a Fan.</h2>
-                <p>You should receive a confirmation email from us to confirm your email address.</p>
-                <p>Please agree to our Terms of Use by reading and accepting terms below.</p>
-                <p>YOu will now receive our monthly newsletter and notifications of all Monkees events.</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 email confirmation and acceptance of terms of use">
+                <h3 class="confirm text-center"><strong><i><u>Accept Terms of Use</strong></i></u></h3>
+                <p>- You should receive a confirmation email from us to confirm your email address.</p>
+                <p>- Please agree to our <strong><i><Terms of Use</strong></i></strong> by reading and accepting terms below.</p>
+                <p>- You will now receive our monthly newsletter and notifications of all Monkees events.</p>
             </div>
         </div>
 
 
+		    <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 terms-of-use">
+			      <h5>Terms of Use</h5>
 
-
-<div id="terms-of-use" class="container">
-
-
-    <h5>Terms of Use</h5>
-
-    <p>The following is a list of "Terms of Use" of The Monkee's Website:-</p>
+			          <p>The following is a list of <strong><i>"Terms of Use"</i></strong> of The Monkee's Website:-</p>
     
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 terms-of-use">
 
-      <ol class="terms">
+			      <ul class="terms">
 
-        <li>To refrain from doing anything that will cause damage to The Monkee's Website.</li>
+                <li>To refrain from doing anything that will cause damage to The Monkee's Website.<i class="fa fa-check-square"></i></li>
 
-        <li>To obey all Copyright Laws and Statue's.</li>
+				        <li>To obey all Copyright Laws and Statue's.<i class="fa fa-check-square"></i></li>
 
-        <li>Do not reproduce this website or any part of it, for commercial gain. Permission to copy substantial parts of the website must be strictly sought. </li>
+			        	<li>Do not reproduce this website or any part of it, for commercial gain. Permission to copy substantial parts of the website must be strictly sought<i class="fa fa-check-square"></i></li>
 
-      </ol>
+			      </ul>
   
-    <p>Further details of our terms and conditions can be found by clicking on <a href="terms-of-use.html"<strong>"Terms of Use"</strong></a> at the bottom of the page.</p>
+			      <p class="thank-you"><strong><i>Thank you</strong></i> for becoming a Monkee's Fan. We look forward to seeing you soon at one of our events. </p>
 
-    <p>We hope you enjoy The Monkee's Website.</p>
-    
-  </div>
+        
+			</div>
   
+		</div>
+		
+</div>		
+
 </div>
 
-
-
-
-
-
-
-
-
-<footer class="text-center fixed-bottom">
-  <!--<div id="footer" class="container text-center fixed bottom"-->
  
-  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a><br><br>
+ 
+ <footer class="text-center fixed-bottom">
+ <div id="footer" class="container text-center fixed bottom">
+ <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+ <span class="glyphicon glyphicon-chevron-up"></span>
+ </a><br><br>
   
   
-  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 newsletter and fan-club">
-  <p>Want to keep up with Monkee's news and events? Sign-up and become a Fan.</p>
-                
-  <p><a href="/login" data-toggle='modal' data-target='#signUpModal'>Sign-up here</a></p>
-            </div>
+  <div class="fan sign-up col-xs-12 col-sm-12 col-md-12 col-lg-12">
+  <a href="/login" data-toggle='modal' data-target='#signUpModal'>Become a Monkee's Fan now! Sign-up here!
+            </div></a>
   
-  <p class="website">2018@The Monkees | <a href="#band">About</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a>
-
+  <p class="website">2018@The Monkees | <a href="#band">About</div> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a> | Created by Deirdre Weldon
 
 
          <div id="footer-details " class="row ">
-           <<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social media">
+           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social media">
                 <h5 class="general">Like us on Social Media!</h5>
                 <ul class="list-inline social-links ">
                     <li><a target="_blank " href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook "></i></a></li>
@@ -146,6 +185,35 @@
                             <p class="help-block">We'll never share your email address with anyone</p>
                         </div>
                         <button type="submit" class="btn btn-success">Sign Up!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>   
+    
+    <!-- LOGIN MODAL -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button-login" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                      <form action="login.html">
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="password" required>
+                            
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        
+                       
+                        <button type="Login" class="btn btn-success">Sign Up!</button>
                     </form>
                 </div>
             </div>

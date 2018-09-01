@@ -12,7 +12,21 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/style.css" type="text/css">
  
- 
+<style>
+  .modal-header, h4, .close {
+      background-color: #5cb85c;
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-footer {
+      background-color: #f9f9f9;
+  }
+</style>
+
+<h2 class="heyhey">Hey Hey! We're the Monkee's</h2>
+
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -25,37 +39,43 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-     <!-- <div class="row news-flash color-home">Get the latest - <a href="/sign-up" data-toggle='modal' data-target='#signUpModal'>Join our Fan Club here!</a></div>-->
-     <div class="signUpNow  id="signUp"><a href="/sign-up" data-toggle='modal' data-target='#signUpModal'>Sign-Up Now and get our latest news & offers!!!!</a></div>
+     
       <a class="navbar-brand"> <img src="assets/images/logo2.png" class="img-responsive" alt="The Monkees" height="50"  width="100"></a>
     </div>
     
     <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><i class="fa fa-home aria-hidden="true"></i><strong>Home</strong></a></li>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><strong>Home</strong></a></li>
          
-            <li><a href="video.html"><i class="fa fa-video-camera aria-hidden="true"></i><strong>Video</strong></a></li>
+            <li><a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i><strong>Video</strong></a></li>
           
-            <li><a href="audio.html"><i class="fa fa-headphones aria-hidden="true"></i><strong>Audio</strong></a></li>
+            <li><a href="audio.html"><i class="fa fa-headphones" aria-hidden="true"></i><strong>Audio</strong></a></li>
           
-            <li><a href="bookings.html"><i class="fa fa-book aria-hidden="true"></i><strong>Bookings</strong></a></li>
+            <li><a href="bookings.html"><i class="fa fa-book" aria-hidden="true"></i><strong>Bookings</strong></a></li>
           
             <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i></i><strong>Contact</strong></a></li>
             
-            <li><a href="#loginModal" data-toggle='modal' data-target='#loginModal'><i class="fa fa-sign-in"><strong>Login</strong></a></li></i>
-             
+            <li><a data-toggle="modal" href="#loginModal"><i class="fa fa-sign-in" aria-hidden="true"></i><strong>Login</strong></a></li>
             
-   
+            <li><a data-toggle="modal" href="#signUpModal"><i class="fa fa-registered" aria-hidden="true"></i><strong>Sign-Up</strong></a></li>
+         
           </ul>
-       </div>
+    </div>
   </div>
-  
 </nav>
 
 
+<div id="home-page" class="container">
+  <h2 class="text-center"><em><strong>HeyHey, We're The Monkee's!</em></strong></h2>
+</div>
+ 
+
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  
+  <!-- Container (Booking Section) -->
     <!-- Indicators -->
     <ol class="carousel-indicators">
+      
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -66,6 +86,7 @@
       <li data-target="#myCarousel" data-slide-to="7"></li>
       <li data-target="#myCarousel" data-slide-to="8"></li>
     </ol>
+
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -149,16 +170,22 @@
     </a>
 </div>
 </div>
+
 <!-- Container (The Band Section) -->
 <div id="band" class="container text-left">
   <h3 class="text-center"><em><strong>THE MONKEES</h3></strong></em>
   <p class="text-center"<em><strong>Remember us? Hey Hey, we're the Monkees!</em></strong></p>
   
-  <p>We're delighted to be back again in full-swing. We're a 60's Band, over 50 years old but we're still going strong!<p>
+  <p>We're delighted to be back again in full-swing. We're a 60's Band, over 50 years old but we're still going strong!</p>
+  
   <i class="fa fa-spinner fa-spin" style="font-size:24px" aria-hidden="true"></i>  Want to find out more about us and catch-up on the latest news, head over to <a href="video.html"><strong>Video</strong></a><br>
+  
   <i class="fa fa-spinner fa-spin" style="font-size:24px" aria-hidden="true"></i>  Want to listen to our back catalogue of old music, head on over to our <a href="audio.html"><Strong>Audio</strong></a><br>
+  
   <i class="fa fa-spinner fa-spin" style="font-size:24px" aria-hidden="true"></i>  Want to book us for Christmas parties or Weddings, head on over to our <a href="bookings.html"><strong>Bookings</strong></a><br>
-  <i class="fa fa-spinner fa-spin" style="font-size:24px" aria-hidden="true"></i>  Want to keep in touch, to get our newsletter and keep up-to-date <strong>Sign-Up!</strong><br>
+  
+  <i class="fa fa-spinner fa-spin" style="font-size:24px" aria-hidden="true"></i>  Want to keep in touch, to get our newsletter and keep up-to-date? <a data-toggle="modal" href="#signUpModal" id="register"><strong><big><u>Sign-Up Now!</strong></big></u></a></br>
+  
   <i class="fa fa-spinner fa-spin" style="font-size:24px" aria-hidden="true"></i>  Want to contact us, head over to <a href="contact.html"><strong>Contact</strong></a> <br><br>
   
   <div class="row">
@@ -210,36 +237,43 @@
 </div>
 
 
-  
-<!-- Container (Fan Comments Section) -->
+<!--Container (Fan Comments Section)-->
+
 <div id="fans" class="container">
-  <h3 class="text-center">Comments from our Fans!</h3>
-  <p class="text-center"><em>We love our fans!</em></p>
-
- 
-  <h3 class="text-center">What our Fans say!</h3>  
-  <p>Take a look at what our fans say about The Monkees.</p>
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Julie</a></li>
-    <li><a data-toggle="tab" href="#menu1">Mike</a></li>
-    <li><a data-toggle="tab" href="#menu2">Brian</a></li>
-  </ul>
-
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 our fans">
+		  <h3 class="text-center">We love our fans. See What they say about us!</h3>
+		</div>
+	  
+  <div id="fans" class="container">
+	  <ul class="nav nav-tabs">
+		  <li class="active"><a data-toggle="tab" href="#home">Julie</a></li>
+		  <li><a data-toggle="tab" href="#menu1">Mike</a></li>
+		  <li><a data-toggle="tab" href="#menu2">Brian</a></li>
+	  </ul>
+  </div>
+  
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
       <h2>Julie Miles</h2>
       <p>The Monkees are the best group ever. Can't get enough of them.</p>
     </div>
+	
     <div id="menu1" class="tab-pane fade">
       <h2>Mike Smith</h2>
       <p>The Monkees are just wonderful! Listen to their music all the time.</p>
     </div>
+	
     <div id="menu2" class="tab-pane fade">
       <h2>Brian Dunne</h2>
       <p>Been a fan for over 50 years now and will be for the next 50 years!</p>
     </div>
+	
   </div>
 </div>
+</div>
+
+
 
 <footer class="text-center fixed-bottom">
   <div id="footer" class="container text-center fixed bottom">
@@ -250,10 +284,10 @@
   
   
   <div class="fan sign-up col-xs-12 col-sm-12 col-md-12 col-lg-12">
-  <a href="/login" data-toggle='modal' data-target='#signUpModal'>Become a Monkee's Fan now! Sign-up here!
+  <a data-toggle='modal' data-target='#signUpModal'>Become a Monkee's Fan now! Sign-up here!
             </div></a>
   
-  <p class="website">2018@The Monkees | <a href="#band">About</div> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a> | Created by Deirdre Weldon
+  <p class="website"> ©2018The Monkees | Created by Deirdre Weldon | <br><a href="#band">About</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a> | </p>
 
 
          <div id="footer-details " class="row ">
@@ -266,63 +300,138 @@
                 </ul>
             </div>
         </div>
-    </footer>
+        
+</footer>
     
+<!--SIGN-UP MODAL EXAMPLE (TAKEN FROM W3 SCHOOLS)-->
+
+
+
+
+  <!--LOGIN MODEL-->
+  <div class="modal fade" id="loginModal" role="dialog">
+    <div class="modal-dialog">
     
-    
-<!-- SIGN-UP MODAL -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Sign Up to the Fan Club</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                      <form action="sign-up.html">
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
-                            <p class="help-block">We'll never share your email address with anyone</p>
-                        </div>
-                        <button type="submit" class="btn btn-success">Sign Up!</button>
-                    </form>
-                </div>
-            </div>
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
         </div>
-    </div>   
-    
-    <!-- LOGIN MODAL -->
-    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button-login" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Login</h4>
-                </div>
-                <div class="modal-body">
-                    <form>
-                      <form action="login.html">
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email" required>
-                            
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="password" required>
-                            
-                            <p class="help-block">We'll never share your email address with anyone</p>
-                        </div>
-                        
-                       
-                        <button type="Login" class="btn btn-success">Sign Up!</button>
-                    </form>
-                </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
             </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
         </div>
-    </div>   
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <p>Not a member? <a data-toggle="modal" href="#signUpModal">Sign-Up!
+          <p>Forgot <a href="#">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+  </div> 
+  
+<!--SIGN-UP MODAL-->
+ <div class="modal fade" id="signUpModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span> Sign-Up</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+            </div>
+			<div class="form-group">
+			   <label for="psw-repeat"><b>Repeat Password</b></label>
+			   <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			</div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>
+			
+			<p>By creating an account you agree to our <a href="terms-of-use.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+			
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+		  <p>Forgot <a href="#reset-password">Password?</a></p>
+        </div>
+      </div>
+      
+    </div>
+</div> 
+
+
+    
+    
+
    
+<!--JQUERY FOR MODAL-->
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>   
+
+
+<!--JQUERY FOR TOOLTIP, TO ADD SMOOTH SCROLLING-->
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip(); 
+  
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
    
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
