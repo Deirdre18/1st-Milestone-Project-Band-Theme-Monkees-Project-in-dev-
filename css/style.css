@@ -164,9 +164,13 @@ body {
 
 .acceptance a {color: red;}
 
+#sign-up-terms {color: red;}
+
 .confirm{align:text-center;
         margin-top: 5px;
 }
+
+.glyphicon glyphicon-chevron-down {align: text-center;}
 
 #terms-of-use{display:block;}
 
