@@ -170,7 +170,7 @@ body {
         margin-top: 5px;
 }
 
-.glyphicon glyphicon-chevron-down {align: text-center;}
+
 
 #terms-of-use{display:block;}
 
@@ -291,6 +291,11 @@ body {
     margin-right: auto;
     width: 50%;
 }
+
+#down-arrow a {color: white;
+  align: text-center;
+}
+  
 
 
 .container {color: black;}

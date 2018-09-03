@@ -28,6 +28,7 @@
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+  
 
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid">
@@ -59,11 +60,35 @@
              
           </ul>
           
-    
     </div>
+    
+
+    
+     
   </div>
+  </div>
+  
+  <!--<footer class="text-center fixed-bottom">
+  <div id="footer" class="container text-center fixed bottom">
+ 
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>-->
+  
+  
+         <div class="container text-center" id="down-arrow">
+      
+          <a href="#footer">
+          <span class="glyphicon glyphicon-chevron-down" ></span>
+        </a>
+      
+    </div>
+  
 </nav>
 
+
+
+<div class="container text-center">
 
 <div id="#mypage" class="container text-center"></div>
 
@@ -271,8 +296,6 @@
 </div>
 </div>
 
-
-
 <footer class="text-center fixed-bottom">
   <div id="footer" class="container text-center fixed bottom">
  
@@ -300,11 +323,7 @@
         </div>
         
 </footer>
-    
-<!--SIGN-UP MODAL EXAMPLE (TAKEN FROM W3 SCHOOLS), also some elements from "Whiskey Drop" Mini Project (Call-out/Sign-up modal)-->
-
-
-
+  
 
   <!--LOGIN MODEL-->
   <div class="modal fade" id="loginModal" role="dialog">
@@ -341,9 +360,10 @@
       
     </div>
   </div> 
-  
-<!--SIGN-UP MODAL-->
- <div class="modal fade" id="signUpModal" role="dialog">
+
+<!--SIGN-UP MODAL EXAMPLE (TAKEN FROM W3 SCHOOLS), also some elements from "Whiskey Drop" Mini Project (Call-out/Sign-up modal)-->
+
+<div class="modal fade" id="signUpModal" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
@@ -407,16 +427,12 @@ $(document).ready(function(){
   
   // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-
       // Prevent default anchor click behavior
       event.preventDefault();
-
       // Store hash
       var hash = this.hash;
-
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
