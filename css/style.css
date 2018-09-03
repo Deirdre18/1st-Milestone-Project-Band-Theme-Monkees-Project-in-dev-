@@ -10,7 +10,7 @@ body {
       text-align: center;
   }
   
-  #myCarousel {margin: auto;}
+  #myCarousel {margin:auto;}
   
   .person {
       border: 5px solid green;
@@ -23,20 +23,14 @@ body {
       border-color:  #80aaff;
   }
   .carousel-inner img {
-      width: 80%; /* Set width to 80% */
+      width: 100%; /* Set width to 100% */
       margin:auto;
       height: 100%;
       margin-top: 10px;
 
     }
     
-    .carousel-inner {
-      width: 80%; /* Set width to 80% */
-      margin:auto;
-      height: 100%;
-      margin-top: 10px;
-
-    }
+   
     
  .audio-placeholder img {  
       width: 260px; 
@@ -188,8 +182,14 @@ body {
 
 
 .item img{ width:50%;
-             height:30%; 
-             padding-top:0;}
+             height:100%; 
+             padding-top:0}
+             
+.left carousel-control {margin-top: 50%;}
+.right carousel-control {margin-top: 50%;}
+    
+      
+
 
 .navbar {
   font-family: Montserrat, sans-serif;
