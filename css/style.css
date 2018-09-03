@@ -30,6 +30,14 @@ body {
 
     }
     
+    .carousel-inner {
+      width: 80%; /* Set width to 80% */
+      margin:auto;
+      height: 100%;
+      margin-top: 10px;
+
+    }
+    
  .audio-placeholder img {  
       width: 260px; 
       margin:auto;
@@ -181,7 +189,7 @@ body {
 
 .item img{ width:50%;
              height:30%; 
-             padding-top: 15%;}
+             padding-top: 5%;}
 
 .navbar {
   font-family: Montserrat, sans-serif;
