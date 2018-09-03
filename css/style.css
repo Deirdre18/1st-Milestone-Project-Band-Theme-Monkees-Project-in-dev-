@@ -189,7 +189,7 @@ body {
 
 .item img{ width:50%;
              height:30%; 
-             padding-top: 5%;}
+             padding-top:0;}
 
 .navbar {
   font-family: Montserrat, sans-serif;
