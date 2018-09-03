@@ -21,9 +21,14 @@ What’s the end goal of your website? Is it to attract more customers? Is it to
 The list of tasks users should be able to accomplish when visiting your website. What are the hoops users need to jump through to reach your end goal? Can your users search for your novel based on keywords? Can users read excerpts of your novel or view the cover artwork? Can your users save your novel in a shopping cart or see other books they might be interested in?
 Structure
 This is the plan or flow of interactions users will take to navigate your website. A structure typically contains both a site map and a flow chart. Typically a site map helps visualize how the content of the website will exist but a flow chart that describes interaction helps to make our UX strategy more concrete.
-Skeleton
+
+### Structure
+This is the plan or flow of interactions users will take to navigate your website. A structure typically contains both a site map and a flow chart. Typically a site map helps visualize how the content of the website will exist but a flow chart that describes interaction helps to make our UX strategy more concrete.
+
+### Skeleton
 Now that we’ve decided on the goals, scope and flow our website. The first visual element or wireframes help to ensure that the strategy, scope and structure of the website mesh properly while avoiding the details of aesthetics. It places headlines, copy, buttons and a call to action with getting weighted down by color, typography or imagery. This phase ensures a clear definition for everything visitors will see on the site.
-Surface
+
+### Surface
 The surface, or the skin – is the interface for which visitors will engage with your business. Consider the decision of using English or Spanish, or the use of slang or industry jargon that might alienate some portions of your audience. Typography, colors, photography and language – all these things create a surface experience for your audience. Elements such as buttons provide a visceral connection when they are familiar to us. If a button looks and responds like something we might find on our keyboard – it becomes real for us and that becomes a great user experience.
 
 ## **TESTING**
