@@ -322,10 +322,9 @@ body {
     width: 50%;
 }
 
-#down-arrow a {color: white;
-  align: text-center;
-}
-  
+
+
+.modal-footer a .signup {color: red;}
 
 
 .container {color: black;}
