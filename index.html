@@ -58,15 +58,22 @@
             <li><a data-toggle="modal" href="#signUpModal"><i class="fa fa-registered" aria-hidden="true"></i><strong>Sign-Up</strong></a></li><br>
              
           </ul>
-          
     
     </div>
   </div>
 </nav>
 
 
-
 <h3 class="text-center"><em><strong>Hey Hey, We're The Monkee's!</em></strong></h3>
+
+<div class="container-full-bg text-center">  <!--  increased the jumbotron width -->
+        <div class="jumbotron ">
+            <div class="container">
+  <p><i><strong><h3 class="text-center">Want to be a <big><strong>Monkee's Fan? Sign-up here!</h3></big></strong></i></i></p></strong><a data-toggle="modal" href="#signUpModal" id="register"><strong><big><u><i><i>Sign-Up Now!</i></strong></big></u></a></br>
+            </div>
+      </div>
+</div>
+
 
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -182,11 +189,9 @@
   
   <i class="fa fa-spinner fa-spin" style="font-size:24px" aria-hidden="true"></i><i>Want to contact us, head over to <a href="contact.html"><strong>Contact</strong></i></a> <br><br>
   
- <div class="jumbotron center text-center">
-  <p><i><strong>Want to keep updated on Monkees events & news?<br>Sign-up here!</i></br></i></p></strong><a data-toggle="modal" href="#signUpModal" id="register"><strong><big><u><i><i>Sign-Up Now!</i></strong></big></u></a></br>
-  </div>
+</div>
   
-  
+ 
   
   <!--Using bootstrap grid for band member photos.-->
   <div class="row">
@@ -333,7 +338,7 @@
               <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
           </form>
         </div>
-        <div class="modal-footer">
+         <div class="modal-footer">
           <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
             Not a Member?<a data-toggle="modal" href="#signUpModal"><p class="signup">Sign-Up!</p></a>
           <a href="#">Forgot Password?</a>
@@ -392,7 +397,7 @@
     
 
    
-<!--JQUERY FOR MODAL - not necessary as bootstrap.min.js is already in document
+<!--JQUERY FOR MODAL-->
 <script>
 $(document).ready(function(){
     $("#myBtn").click(function(){
@@ -400,7 +405,6 @@ $(document).ready(function(){
     });
 });
 </script>   
--->
 
 
 <!--JQUERY FOR TOOLTIP, TO ADD SMOOTH SCROLLING-->
