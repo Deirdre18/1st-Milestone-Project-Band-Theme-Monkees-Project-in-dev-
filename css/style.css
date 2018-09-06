@@ -182,7 +182,9 @@ body {
       color: blue;
       background-color: green;
   }
-#contact {margin-top: 100px;}
+
+
+
 
 #signUpNow {
   color: white;
@@ -210,17 +212,15 @@ body {
 }
 
 #terms-of-use{display:block;}
-.monkees: margin-top: 100px;
-}
 
 .website {text-align: center;}
 
 .website a {color: white;}
 
 
-.item img{ width:50%;
-             height:100%; 
-             padding-top:0}
+.item img {width:50%;
+           height:100%; 
+           padding-top:0}
              
 .left carousel-control {margin-top: 50%;}
 .right carousel-control {margin-top: 50%;}
@@ -306,11 +306,22 @@ body {
 
 .email terms{margin-top:10px;}
 
-
-
-
-.monkees {margin-top: 200px;
+.monkees0 {margin-top: 50px;
 }
+.monkees1 {margin-top: 25px;
+           margin-bottom: 50px;
+}
+
+#contact {margin-top: 75px;
+}
+
+
+.monkees {margin-top: 100px;}
+
+#check0 {display: block;}
+#check1 {display: block;}
+
+
 
   .social-links {
     padding-bottom: 15px;
