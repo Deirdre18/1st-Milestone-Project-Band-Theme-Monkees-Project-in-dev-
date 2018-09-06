@@ -78,10 +78,7 @@ body {
 
 
                 
-/*.confirm {text-align: left;} */ 
-  
-  /*.container-fluid-thank-you{ margin-top: 50%; }*/
-
+.confirm  {margin-bottom: 20px;}
   .carousel-caption h3 {
       color: #fff !important;
   }
@@ -310,6 +307,10 @@ body {
 }
 .monkees1 {margin-top: 25px;
            margin-bottom: 50px;
+}
+
+.monkees2 {margin-top: 100px;
+           margin-bottom: 25px;
 }
 
 #contact {margin-top: 75px;
