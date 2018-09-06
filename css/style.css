@@ -75,7 +75,31 @@ body {
               border: 5px solid green;
              
                                     } 
+                                    
+                                   
 
+#band { background-color: #33ffff; 
+              margin-top: 20px;
+              
+              
+              
+              /*.. Took some of this code for jumbotron borders from this website link - https://www.dmxzone.com/support/22406/topic/59229/ but customised it and made some changes.*/ 
+              /*padding: 20px 5px 20px 15px;*/
+              font-size: 18px;
+              font-weight: 200;
+              line-height: inherit;
+              width: 100%;
+              height: 100%;
+             
+                           
+              /*outline-style: solid;
+                outline-color: green;*/
+              color: #fffffff;
+              -webkit-border-radius: 20px;
+              -moz-border-radius: 20px;
+              border-radius: 20px;
+              border: 5px solid green;
+}
 
                 
 .confirm  {margin-bottom: 20px;}
@@ -210,10 +234,14 @@ body {
 
 #terms-of-use{display:block;}
 
-.website {text-align: center;}
+.website {text-align: center;
+          color: black;}
 
 .website a {color: white;}
 
+.website a:hover {color:red;}
+
+.fan-sign-up a:hover {color:red;}
 
 .item img {width:50%;
            height:100%; 
@@ -329,6 +357,24 @@ body {
 }
 /*use border-radius to create perfect circle around edges, which will be semi-transparent.  Setting border-radious to 50% and styling font-awesome icon, as well as reusing transition hover effects for .cv-pdf hover.*/
 
+
+.fa-twitter  {color: #fafafa;
+              background: #00aced;}
+    
+.fa-facebook {color: #fafafa;
+              background: #3b5998;}
+    
+.fa-youtube   {color: #fafafa;
+              background: #bb0000;}
+              
+.fa-google-plus {color: #fafafa;
+                background: #dd4b39;}
+    
+.fa-instagram   {color: #fafafa;
+                background: #517fa4;
+                
+}
+
 .social-links li a i {
     
     width: 40px;
@@ -339,7 +385,7 @@ body {
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: red;
+    background:  ;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -349,11 +395,9 @@ body {
   
 /*set hover for social-links using hover pseudo class. Set bg-color same as cv-pdf icon */
 .social-links li a i:hover {
-    background:  #fafafa;
+    background:  red;
 }
 
-.website {color: black;
-}
 
 .center {
     display: block;
