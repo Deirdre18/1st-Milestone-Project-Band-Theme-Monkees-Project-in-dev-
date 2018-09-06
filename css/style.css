@@ -209,9 +209,9 @@ body {
         margin-top: 5px;
 }
 
-
-
 #terms-of-use{display:block;}
+.monkees: margin-top: 100px;
+}
 
 .website {text-align: center;}
 
@@ -296,9 +296,21 @@ body {
     height: auto;
 }
 
+.points  {margin-top:15px;}
+
+#terms-of-use{display:block;}
+
+#confirmation{margin-top:10px;}
+
+.accept terms{margin-top:10px;}
+
+.email terms{margin-top:10px;}
 
 
 
+
+.monkees {margin-top: 200px;
+}
 
   .social-links {
     padding-bottom: 15px;
@@ -306,9 +318,10 @@ body {
 /*use border-radius to create perfect circle around edges, which will be semi-transparent.  Setting border-radious to 50% and styling font-awesome icon, as well as reusing transition hover effects for .cv-pdf hover.*/
 
 .social-links li a i {
+    
     width: 40px;
-    height: 40px;
-    padding: 12px 0;
+    height: 35px;
+    padding: 15px 0;
     border-radius: 50%;
     font-size: 25px;
     line-height: 7px;
@@ -345,7 +358,7 @@ body {
 
 .container {color: black;}
 
-.general {color: red;}
+.general {color: black;}
 
 
 
