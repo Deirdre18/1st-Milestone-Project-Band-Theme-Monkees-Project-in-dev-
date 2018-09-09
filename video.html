@@ -63,21 +63,21 @@
 
 <h3 class="monkees"><em><strong>The Monkees Music - Daydream Believer</em></strong></h3>
 
-
+<!--extractred some of the code below from contributor on stack-overflow - https://stackoverflow.com/questions/39892713/google-chrome-does-not-play-html5-video-on-mobile-->
 <section class="container-fluid text-center">
      <div class="row">
             
             <div class="col-xs-12 col-sm-12 col-md-12  video-container>
-">
+
                <row class="video-placeholder">
                   <div class="embed-responsive-item" width="480" height="270">              
                 
                 <video controls>
+                  video-auto-ctrl loop muted preload poster="assets/images/daydream believer.jpg">
                    <source src="assets/video/Monkees.mp4" type="video/mp4">
                    <source src="assets/video/Monkees.webm" type="video/webm">
                
-                <track src="chrome-subtitles-en.vtt" label="English captions" kind="captions" srclang="en" default>
-                <p>This browser does not support the video element.</p>
+               <img src="assets/images/daydream believer.jpg" alt="something" title="Your browser does not support the <video> tag">
                 </video>
                 
                
@@ -87,6 +87,9 @@
         </div>
     </div>
 </section>
+
+
+
 
 
 <footer class="text-center fixed-bottom">
@@ -249,6 +252,7 @@ $(document).ready(function(){
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/js/oncanplay.js"></script>
 
 </body>
 
