@@ -61,35 +61,27 @@
   </div>
 </nav>
 
-<h3 class="monkees"><em><strong>The Monkees Music - Daydream Believer</em></strong></h3>
+<!--video doesn't play in mobile chrome. Despite trying many fixes!-->
 
-<!--extractred some of the code below from contributor on stack-overflow - https://stackoverflow.com/questions/39892713/google-chrome-does-not-play-html5-video-on-mobile-->
 <section class="container-fluid text-center">
-     <div class="row">
+  <h3 class="text-center"><em><strong>The Monkees - "Daydream Believer"</h3></strong></em></h3>
+  
             
-            <div class="col-xs-12 col-sm-12 col-md-12  video-container>
-
+          <div class="row">
+            
+            <div class="col-xs-12 col-sm-12 col-md-12  video">
                <row class="video-placeholder">
-                  <div class="embed-responsive-item" width="480" height="270">              
+                  <div class="embed-responsive embed-responsive-16by9">              
                 
-                <video controls>
-                  video-auto-ctrl loop muted preload poster="assets/images/daydream believer.jpg">
-                   <source src="assets/video/Monkees.mp4" type="video/mp4">
-                   <source src="assets/video/Monkees.webm" type="video/webm">
-               
-               <img src="assets/images/daydream believer.jpg" alt="something" title="Your browser does not support the <video> tag">
-                </video>
-                
-               
+                 <video controls="embed-responsive-item" width="300" height="300" autoplay controls>
+	                <source src="assets/video/Monkees.mp4" type="video/mp4">
+	               </video>
                 </row>
                </div> 
                    
         </div>
     </div>
 </section>
-
-
-
 
 
 <footer class="text-center fixed-bottom">
@@ -177,15 +169,15 @@
           <form action="terms-of-use.html">
         <div class="form-group">
               <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+              <input type="text" class="form-control" id="usrname1" placeholder="Enter email">
             </div>
             <div class="form-group">
               <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+              <input type="text" class="form-control" id="psw1" placeholder="Enter password">
             </div>
 			<div class="form-group">
 			   <label for="psw-repeat"><b>Repeat Password</b></label>
-			   <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+			   <input type="password" placeholder="Repeat Password" name="psw1-repeat" required>
 			</div>
             <div class="checkbox">
               <label><input type="checkbox" value="" checked>Remember me</label>
@@ -207,15 +199,6 @@
     
 
    
-<!--JQUERY FOR MODAL-->
-<script>
-$(document).ready(function(){
-    $("#myBtn").click(function(){
-        $("#myModal").modal();
-    });
-});
-</script>   
-
 
 <!--JQUERY FOR TOOLTIP, TO ADD SMOOTH SCROLLING-->
 <script>
@@ -252,7 +235,6 @@ $(document).ready(function(){
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="assets/js/oncanplay.js"></script>
 
 </body>
 
