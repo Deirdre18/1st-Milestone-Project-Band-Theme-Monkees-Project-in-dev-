@@ -6,7 +6,6 @@ body {
       overflow-x: hidden; }
       
 
-  
   h3, h4 {
       margin: 10px 0 30px 0;
       letter-spacing: 10px;      
@@ -30,16 +29,16 @@ body {
       border-color:  #80aaff;
   }
   .carousel-inner img {
-      width: 100%; /* Set width to 100% */
+      width: 60%; /* Set width to 100% */
       margin:auto;
-      height: 100%;
+      height: 80%%;
       margin-top: 10px;
 
     }
     
   
     
- .audio-placeholder img {  
+.audio-placeholder img {  
       width: 260px; 
       margin:auto;
       height: 240px;
@@ -164,8 +163,8 @@ body {
 
 .fan-sign-up a:hover {color:red;}
 
-.item img {width:50%;
-           height:100%; 
+.item active img {width:260px;
+           height:100px; 
            padding-top:0}
              
 .left carousel-control {margin-top: 50%;}
@@ -298,23 +297,39 @@ footer {
               background: #3b5998;}
     
 .fa-youtube   {color: #fafafa;
-              background: #bb0000;}
+              background: #bb0000;
+               }
+    
+
               
 .fa-google-plus {color: #fafafa;
-                background: #dd4b39;}
+                background: #dd4b39;
+                }
     
 .fa-instagram   {color: #fafafa;
                 background: #517fa4;
+               
+                }
                 
-}
+.fa-spotify     {color: #fafafa;
+                 background:  #1ED760;}      
+                 
+.fa-pinterest    {color: #fafafa;
+                 background: #cb2027}
+
+.fa-flickr       {color: #fafafa;
+                 background: #ff0084}
+                 
+#inline {text: center;}                 
 
 .social-links li a i {
     
-    width: 40px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
     padding: 15px 0;
-    border-radius: 50%;
-    font-size: 25px;
+    padding-left: 5px;
+    border-radius: 20%;
+    font-size: 15px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
