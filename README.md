@@ -1,44 +1,136 @@
-# First Milestone Project - still currently under Development
+# The Monkees Website
+ 
+This project is the second Milestone Project for Full-Stack Diploma in Software Development. It is a User Centric Frontend Development Project, using HTML5 and CSS3 and based on a 'Band' Theme – The Monkees, who are a 1960's band. The project entails building a static front-end only website. 
+ 
+## UX Design
 
-## **BRIEF OUTLINE OF THE PROJECT**
+I tried to visualise and understand the User Experience, (UXE) and what a typical user of the website would require and why they would want to visit the Monkees website. The type of user could be anyone (any gender group, young or old). In particular, I feel the site would attract those who remember the Monkee's songs from the 1960's and watched their TV series. I would like it to be an enjoyable website experience for users and maybe bring back reminences of past years, as well as encourage younger viewers to become a Monkees fan. The website should promote the Monkees, by having clear navigational links to their music tracks (both 1960's and newer music, with links to social media (Facebook, YouTube, Instagram, etc) and other internet links. The website also has modals for Login and Sign-up to encourage new and existing Monkees fans. There is a Terms of Use page that new users must agree to. The website also has a Bookings form for users to book the Monkees for Weddings or Christmas. There is also a Contact page for fans to drop a note to the Monkees. Users can listen to Monkees audio tracks and watch videos. 
 
-This is my first Milestone Project for Full-Stack Diploma in Software Development. It's a website on The Monkee's (the 1960's group formed over 50 years ago). The website consists of 3 main pages and is primarily composed of Semantic HTML5 and CSS3, using Grids in Bootstrap framework and components. I used Bootstrap V. 3.3.7, implementing also min.js and jquery plugin, as well as utilising font awesome for icons. The website is about a Band who are well known and been around a long time. The Monkees band wish to gain a social media presents, and so links for Facebook, Twitter and YouTube have been added, and more may also be added. The Band (The Monkees) wish to showcase their back catalogue of songs, as well as their new releases and also wish to publicise their availability to perform at Weddings and Christmas parties. 
+For direction in UX design, I revised the Code Institute tutorials, and also referred to this website about user experience, [Red Rocket Web Specialist](https://www.redrocketmg.com/5-planes-ux-design-great-website/), who consider that the two most important aspects of designing a good website are (1) the Abstract aspect (idea, goal, etc) and (2) the Concrete aspect (how to get a user to click on a link, etc). The transition from Abstract to Concrete should remain linear to ensure a smooth transition, with each phase being fluid and overlapping. 
 
-## **WIREFRAMES**
+**Garret's 5 Planes of UX design are as follows:-**
 
-Initially I did some mock-ups (Wireframes), using UX tool (Balsamiq) to design a layout and did some mock-ups, however later these mock-ups were modified and I changed around some things and will later upload the most current mock-up's, which I don't have presently available. 
+### Strategy (The goal)
 
-## **UX DESIGN AND USER STORIES**
+The goal of the Monkees website is to attract both existing and new Fans and promote the Monkees (their music, tours, etc) and to impart a general Monkees 'good feel' to website users. It also allows users to make bookings for Monkees to play at Weddings or Christmas. There is a Login and Sign-up Modal. On signing-up users will input their names, email address and other contact details and be kept up-to-date with Monkee's news. 
 
-I tried to visualise and understand the User Experience, and what a typical user of the website would require and why they would visit my website in particular. The type of user would be anyone, in any age group, you and old. In particular I feel the site would attract those who were around at the time of the Monkee's and remember their songs and and their movies and would hope to add links also to their TV series. I would like it to be an enjoyable website for users and maybe bring back reminences of past years. I also would like to spread the world to younger audiences of how great a band the Monkee's were and how highly successful they were in the 1960's (more so even than the Beatles). 
+### Scope (What tasks can be done)
 
-For direction in UX design, I refer to Code Institute tutorials, and also to https://www.redrocketmg.com/5-planes-ux-design-great-website. I consider the two very important aspects to designing a good website - (1) Abstract (idea, goal, etc) and (2) Concrete (how to get a user to click on a link, etc). The transition from abstract to concrete should remain linear to ensure a smooth transition, with each phase being fluid and overlapping. Garret's 5 Planes of UX design are as follows:-
+On the Monkees website, users can view all pages (Home, Video, Audio, Bookings, Contact, Login, Sign-up, Terms of Use). In Contact page, fans can drop a note and in Bookings page they request the Monkees to play at events (Weddings or Christmas). In Login they can input their details and login, and in Sign-up they can sign-up and agree to Terms of Use. On the Video and Audio page users can watch and listen to Monkees tracks.
 
-### Strategy
-What’s the end goal of your website? Is it to attract more customers? Is it to sign up visitors for a monthly newsletter? Is it to sell your latest novel? Let’s say for the sake of discussion – you’re selling a great new novel about teenage vampires. Your UX strategy will provide focus and the foundation for the remaining planes of UX design.
+### Structure (Plan or Flow of Interactions)
 
-### Scope
-The list of tasks users should be able to accomplish when visiting your website. What are the hoops users need to jump through to reach your end goal? Can your users search for your novel based on keywords? Can users read excerpts of your novel or view the cover artwork? Can your users save your novel in a shopping cart or see other books they might be interested in?
-Structure
-This is the plan or flow of interactions users will take to navigate your website. A structure typically contains both a site map and a flow chart. Typically a site map helps visualize how the content of the website will exist but a flow chart that describes interaction helps to make our UX strategy more concrete.
+This is the plan or flow of interactions users will take to navigate your website. A structure typically contains both a site map and a flow chart. To this end I tried to visualise the website, firstly in my mind and then on paper, by doing some mock-up sketches. 
 
-### Structure
-This is the plan or flow of interactions users will take to navigate your website. A structure typically contains both a site map and a flow chart. Typically a site map helps visualize how the content of the website will exist but a flow chart that describes interaction helps to make our UX strategy more concrete.
 
-### Skeleton
-Now that we’ve decided on the goals, scope and flow our website. The first visual element or wireframes help to ensure that the strategy, scope and structure of the website mesh properly while avoiding the details of aesthetics. It places headlines, copy, buttons and a call to action with getting weighted down by color, typography or imagery. This phase ensures a clear definition for everything visitors will see on the site.
+
+
+[Home Page Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up index.html.jpg)
+
+[Video Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up video.html.jpg)
+
+[Audio Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up audio.html.jpg)
+
+[Bookings Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up bookings.html.jpg)
+
+[Contact Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up contact.html.jpg)
+
+[Terms of Use Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up terms-of-use.html.jpg)
+
+### Skeleton 
+
+In this section, I tried to place call-out button to Sign-up that I highlighted on the Home Page and tried to balance elements and aspects, like headings.  I used MockFlow tool to detail page by page the type of layout I wanted to have across all pages in the website. [Wireframe for Home, Video & Audio Pages](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Index, Video & Audio pages.pdf)
+
+[Wireframe for Bookings, Terms of Use and Login & Sign-up Modals](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Wireframe - Bookings, Terms of Use and Login & Sign-up Modals.pdf) 
 
 ### Surface
-The surface, or the skin – is the interface for which visitors will engage with your business. Consider the decision of using English or Spanish, or the use of slang or industry jargon that might alienate some portions of your audience. Typography, colors, photography and language – all these things create a surface experience for your audience. Elements such as buttons provide a visceral connection when they are familiar to us. If a button looks and responds like something we might find on our keyboard – it becomes real for us and that becomes a great user experience.
 
-## **TESTING**
+The surface, or the skin – is the interface for which visitors will engage with your business.
+All typography was in English but as Google has a translater, can be easily translated. I particularly choose a congruent colour scheme, which I felt gave a zangy uplifted feel to the website and was congruent across pages. I felt the layout was appropriate for this type of website. 
 
-From a testing view-point, I've tested responsiveness on both mobile and desktop, in a variety of screen sizes. Further testing will be undertaken and I hope also to improve on navigation controls for users to easily navigate forward and back through controls either side of the screen, rather than having to return to navbar to click on another link. Further tests will be done throughout to test functionality before submission. I have tested the MP4 HD video ("Daydream Believer") and it plays on Firefox and Internet Explorer (IE 11.0.9600.17843) and and Chrome browser (67.0.3396.99 (Official Build) (32-bit)). I have not yet tested it on Safari or Opera. I have tested the website on a variety of devices using firefox dev tools (responsive mode) - Apple iPad Air2, Apple iPad Mini2, Apple iPad iPhone 6s, Google nexus 4,5,6,7, Laptop (1280 x 720 and 1366 x 768), Nokia Lumia 520, Samsung Galaxy Note 3, Samsung Galaxy S5 and S7\. Also tested on Desktop. 
+## What does it do?
+ 
+This website has various pages for users familiar with The Monkees and unfamiliar. It allows fans and potential fans to login and sign-up and book the band for events, as well as contact, watch and listen to Monkees music.
+ 
+## How does it work
+ 
+This website uses **HTML5** and **CSS3** and is purely front-end developed, rather than backend. On filling in forms such as booking, contact, etc, there is no output to any server, however on signing-up users are directed to a Terms of Use page and required to accept the Terms of Use of the website. The site is styled with **Bootstrap 3.3.7**. The sign-up modals use  **Javascript** and **Jquery**.
 
-## **VERSION CONTROL GITHUB**
+## Features
+ 
+### Existing Features
+- Bright Home Page in congruent colors with bright Sign-up Modal with clickable link.
+- Sliding Photo Carousel of The Monkees.
+- Font Awesome Spinners with links to pages and web-links.
+- Login and Sign-up Modals with links for Sign-up in Navbar, Footer, and in body of Home Page.
+- Bookings page to The Monkees for events such as Weddings and Christmas. 
+- Video page with both MP4 video and YouTube.
+- Audio page with music tracks and photos.
+- Terms of Use page on signing-up to agree on terms of use.
 
-I used version control on an ongoing basis to back-up my code to a remote repository and used version control at regular intervals throughout development. 
+### Features Left to Implement
+- None
 
-## **DEPLOYMENT**
+## Tech Used
 
-This is the website deployed link, but still have some improvements to make on this website before submission. The Monkees Website [link to The Monkees Website](https://deirdre18.github.io/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/)
+### Technologies used includes:
+- **HTML5**, **CSS** and **Javascript**
+Base languages used to create website.
+[HTML5](https://www.html5rocks.com/en/)
+ - Used **AngularJS** to handle page routing and to build custom directives.
+[Bootstrap 3.3.7](http://getbootstrap.com/)
+ - Used **Bootstrap** to give our project a simple, responsive layout.
+[JQuery](https://jquery.com)
+ - Used **JQuery** for boostrap and displaying modal
+[Javascript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+ - Used **Javascript** for boostrap and displaying modal
+[CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+ - Used **CSS3** for styling and enhancing the look of the website.
+
+## Testing
+From a testing view-point, I've tested responsiveness on both mobile and desktop, in a variety of screen sizes. 
+- Google Chrome (version 68)
+- Opera (version 55)
+- Mozilla Firefox Developer (version 63)
+- Internet Explorer (version 11)
+
+
+**Testing across desktop (using developer tools) and mobile browsers**
+I have tested the Monkees website and on the above desktop browsers, and it works fine. I also tested on mobile browsers, however on mobile Chrome I could not play MP4 video. I therefore included a YouTube Video of “Daydream Believer”. I used both Firefox and Chrome Developer tools to test the website in responsive mode - Apple iPad Air2, Apple iPad Mini2, Apple iPad iPhone 6s, Google nexus 4,5,6,7, Laptop (1280 x 720 and 1366 x 768), Nokia Lumia 520, Samsung Galaxy Note 3, Samsung Galaxy S5 and S7 and it renders well in responsive mode. 
+
+
+**Testing Audio and Video**
+I tested all links to Video and Audio pages to ensure the music tracks played and all play very well, except, as explained above, on mobile chrome the MP4 video doesn't play. I tested on mobile browsers using both landscape and portrait mode.
+
+**Testing Sign-up**
+I test the Sign-up modal and used my own email address and this works well, and I was directed to the “Terms of Use Page”.  
+
+**Testing Login**
+I have tested the Login modal, but as the project has no back-end development, the input doesn't go any further. 
+
+**Testing Terms of Use**
+I tested the 'Terms of Use' page to make sure that users could agree to the Terms of Use, and this works fine.
+
+## GitHub Version Control
+
+I used version control on an ongoing basis to back-up my code to a remote repository and used version control at regular intervals throughout development. I did make quite a large number of commits, as I revised the project and made a number of changes.
+
+## Deployment
+
+This project was developed in Cloud9 IDE.
+I used Gh-pages to deploy the website - [The Monkees Website](https://deirdre18.github.io/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/)
+
+## Credits
+
+### Content
+The content contained in the project is mainly my own and anywhere I've used any outside references, I've made reference to them (as in this README document).
+
+### Code
+- I based the project on code I learned throughout the course from the tutorials of Code Institute and by referring to the lessons. For the Login and Sign-up Modals and anything else I needed to get guidance on, I used [W3Schools](https://www.w3schools.com/) and also on occasion I referred to [Stack Overflow](https://stackoverflow.com/) 
+
+### Media
+- The photos used in this site were the boiler plate files from Code Institute, which formed part the 'assets' folder in my development IDE (Cloud9).
+
+### Acknowledgements
+
+I received inspiration for this project from both the requirements of the full-stack Diploma at Code Institute and from the inspiring nature of researching the theme of the Monkees band and found it a very interesting and creative endeavour.
