@@ -39,9 +39,11 @@ This is the plan or flow of interactions users will take to navigate your websit
 
 ### Skeleton 
 
-In this section, I tried to place call-out button to Sign-up that I highlighted on the Home Page and tried to balance elements and aspects, like headings.  I used MockFlow tool to detail page by page the type of layout I wanted to have across all pages in the website. [Wireframe for Home, Video & Audio Pages](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Index%2C%20Video%20%26%20Audio%20pages.pdf)
+In this section, I tried to place call-out button to Sign-up that I highlighted on the Home Page and tried to balance elements and aspects, like headings.  I used MockFlow tool to detail page by page the type of layout I wanted to have across all pages in the website. 
 
-[Wireframe for Bookings, Terms of Use and Login & Sign-up Modals](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Wireframe%20-%20Bookings%2C%20Terms%20of%20Use%20and%20Login%20%26%20Sign-up%20Modals.pdf) 
+[Wireframe for Home, Video & Audio Pages(PDF)](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Index%2C%20Video%20%26%20Audio%20pages.pdf)
+
+[Wireframe for Bookings, Terms of Use and Login & Sign-up Modals(PDF)](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Wireframe%20-%20Bookings%2C%20Terms%20of%20Use%20and%20Login%20%26%20Sign-up%20Modals.pdf) 
 
 ### Surface
 
