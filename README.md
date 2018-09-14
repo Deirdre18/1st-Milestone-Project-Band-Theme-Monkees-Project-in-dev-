@@ -25,23 +25,23 @@ This is the plan or flow of interactions users will take to navigate your websit
 
 
 
-[Home Page Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up index.html.jpg)
+[Home Page Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up%20sketches/mock-up%20index.html.jpg)
 
-[Video Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up video.html.jpg)
+[Video Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up%20sketches/mock-up%20video.html.jpg)
 
-[Audio Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up audio.html.jpg)
+[Audio Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up%20sketches/mock-up%20audio.html.jpg)
 
-[Bookings Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up bookings.html.jpg)
+[Bookings Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up%20sketches/mock-up%20bookings.html.jpg)
 
-[Contact Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up contact.html.jpg)
+[Contact Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up%20sketches/mock-up%20contact.html.jpg)
 
-[Terms of Use Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up sketches/mock-up terms-of-use.html.jpg)
+[Terms of Use Sketch](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/mock-up%20sketches/mock-up%20terms-of-use.html.jpg)
 
 ### Skeleton 
 
-In this section, I tried to place call-out button to Sign-up that I highlighted on the Home Page and tried to balance elements and aspects, like headings.  I used MockFlow tool to detail page by page the type of layout I wanted to have across all pages in the website. [Wireframe for Home, Video & Audio Pages](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Index, Video & Audio pages.pdf)
+In this section, I tried to place call-out button to Sign-up that I highlighted on the Home Page and tried to balance elements and aspects, like headings.  I used MockFlow tool to detail page by page the type of layout I wanted to have across all pages in the website. [Wireframe for Home, Video & Audio Pages](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Index%2C%20Video%20%26%20Audio%20pages.pdf)
 
-[Wireframe for Bookings, Terms of Use and Login & Sign-up Modals](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Wireframe - Bookings, Terms of Use and Login & Sign-up Modals.pdf) 
+[Wireframe for Bookings, Terms of Use and Login & Sign-up Modals](https://github.com/Deirdre18/1st-Milestone-Project-Band-Theme-Monkees-Project-in-dev-/blob/master/wireframes/Wireframe%20-%20Bookings%2C%20Terms%20of%20Use%20and%20Login%20%26%20Sign-up%20Modals.pdf) 
 
 ### Surface
 
@@ -81,7 +81,7 @@ Base languages used to create website.
 [Bootstrap 3.3.7](http://getbootstrap.com/)
  - Used **Bootstrap** to give our project a simple, responsive layout.
 [JQuery](https://jquery.com)
- - Used **JQuery** for boostrap and displaying modal
+ - Used **JQuery** for boostrap and displaying modal and for Tootip (easy scrolling).
 [Javascript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
  - Used **Javascript** for boostrap and displaying modal
 [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
