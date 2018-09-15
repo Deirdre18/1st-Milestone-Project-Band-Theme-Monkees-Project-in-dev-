@@ -79,7 +79,7 @@ This website uses **HTML5** and **CSS3** and is purely front-end developed, rath
 - **HTML5**, **CSS** and **Javascript**
 Base languages used to create website.
 [HTML5](https://www.html5rocks.com/en/)
- - Used **AngularJS** to handle page routing and to build custom directives.
+ - Used **HTML5** to handle page routing and to build custom directives.
 [Bootstrap 3.3.7](http://getbootstrap.com/)
  - Used **Bootstrap** to give our project a simple, responsive layout.
 [JQuery](https://jquery.com)
