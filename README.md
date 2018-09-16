@@ -128,7 +128,7 @@ I used Gh-pages to deploy the website - [The Monkees Website](https://deirdre18.
 The content contained in the project is mainly my own and anywhere I've used any outside references, I've made reference to them (as in this README document).
 
 ### Code
-- I based the project on code I learned throughout the course from the tutorials of Code Institute and by referring to the lessons. For the Login and Sign-up Modals and anything else I needed to get guidance on, I used [W3Schools](https://www.w3schools.com/) and also on occasion I referred to [Stack Overflow](https://stackoverflow.com/) 
+- I based the project on code I learned throughout the course from the tutorials of  [Code Institute](https://www.codeinstitute.net/) and by referring to the lessons. For the Login and Sign-up Modals and anything else I needed to get guidance on, I used [W3Schools](https://www.w3schools.com/) and also on occasion I referred to [Stack Overflow](https://stackoverflow.com/) 
 
 ### Media
 - The photos used in this site were the boiler plate files from Code Institute, which formed part the 'assets' folder in my development IDE (Cloud9).
