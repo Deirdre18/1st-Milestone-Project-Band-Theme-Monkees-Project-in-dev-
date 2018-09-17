@@ -102,7 +102,7 @@ I have tested the Monkees website and on the above desktop browsers, and it work
 
 
 **Testing Audio and Video**
-I tested all links to Video and Audio pages to ensure the music tracks played and all play very well, except, as explained above, on mobile chrome the MP4 video doesn't play. I tested on mobile browsers using both landscape and portrait mode.
+I tested all links to Video and Audio pages to ensure the music tracks played and all play very well, except, as explained above, on mobile chrome the MP4 video doesn't play. I tested on mobile browsers using both landscape and portrait mode. I added both the .ogg and .webm extension to source src files in video controls. The Ogg container format with the Theora video codec and the Vorbis audio codec is supported in desktop/mobile Gecko (Firefox), Chrome, and Opera. An add-on can be installed for Safari - [Supported Media Formats](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats/). I tested both audio and video pages in responsive mode on both firefox and chrome by using developer tools. The video did play across responsive and desktop versions using developer tools, however on my own phone handset (Galaxy S5), which is an out-dated and an older version, I couldn't play the MP4 video in mobile chrome but I could play it on mobile firefox.  
 
 **Testing Sign-up**
 I test the Sign-up modal and used my own email address and this works well, and I was directed to the “Terms of Use Page”.  
