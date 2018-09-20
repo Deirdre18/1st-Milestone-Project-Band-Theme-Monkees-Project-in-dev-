@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <!-- Theme adapted from www.w3schools.com -->
-  <title>The Monkees</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" >
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
- 
-<style>
-  .modal-header, h4, .close {
+    <!-- Theme adapted from www.w3schools.com -->
+    <title>The Monkees</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <style>
+        .modal-header, h4, .close {
       background-color: #5cb85c;
       color:white !important;
       text-align: center;
@@ -28,430 +29,439 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-     
-      <a class="navbar-brand"> <img src="assets/images/logo2.png" class="img-responsive" alt="The Monkees" height="50"  width="100"></a>
-    </div>
-    
-    <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><strong>Home</strong></a></li>
-         
-            <li><a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i><strong>Video</strong></a></li>
-          
-            <li><a href="audio.html"><i class="fa fa-headphones" aria-hidden="true"></i><strong>Audio</strong></a></li>
-          
-            <li><a href="bookings.html"><i class="fa fa-book" aria-hidden="true"></i><strong>Bookings</strong></a></li>
-          
-            <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i></i><strong>Contact</strong></a></li>
-            
-            <li><a data-toggle="modal" href="#loginModal"><i class="fa fa-sign-in" aria-hidden="true"></i><strong>Login</strong></a></li>
-            
-            <li><a data-toggle="modal" href="#signUpModal"><i class="fa fa-registered" aria-hidden="true"></i><strong>Sign-Up</strong></a></li>
-         
-          </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand"> <img src="assets/images/logo2.png" class="img-responsive" alt="The Monkees" height="50" width="100"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><strong>Home</strong></a></li>
+
+                    <li><a href="video.html"><i class="fa fa-video-camera" aria-hidden="true"></i><strong>Video</strong></a></li>
+
+                    <li><a href="audio.html"><i class="fa fa-headphones" aria-hidden="true"></i><strong>Audio</strong></a></li>
+
+                    <li><a href="bookings.html"><i class="fa fa-book" aria-hidden="true"></i><strong>Bookings</strong></a></li>
+
+                    <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i></i><strong>Contact</strong></a></li>
+
+                    <li><a data-toggle="modal" href="#loginModal"><i class="fa fa-sign-in" aria-hidden="true"></i><strong>Login</strong></a></li>
+
+                    <li><a data-toggle="modal" href="#signUpModal"><i class="fa fa-registered" aria-hidden="true"></i><strong>Sign-Up</strong></a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
 
 
-<h3 class="text-center"><em><strong>Hey Hey, We're The Monkees!</em></strong></h3>
+    <h3 class="text-center"><em><strong>Hey Hey, We're The Monkees!</em></strong></h3>
 
-<div class="container-full-bg text-center">  <!--  increased the jumbotron width -->
+    <div class="container-full-bg text-center">
+        <!--  increased the jumbotron width -->
         <div class="jumbotron ">
             <div class="container">
-              <p><h3 class="text-center"><i><strong><big></big>Want our Newsletter?<br><br>Want to be a Fan?</h3></big></strong></i></p><br><a data-toggle="modal" href="#signUpModal" id="register"><strong><big><i>Sign-Up Now!</i></strong></big></a></br>
+                <p>
+                    <h3 class="text-center"><i><strong><big></big>Want our Newsletter?<br><br>Want to be a Fan?</h3></big></strong></i>
+                </p><br><a data-toggle="modal" href="#signUpModal" id="register"><strong><big><i>Sign-Up Now!</i></strong></big></a></br>
             </div>
         </div>
-</div>
-
-
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  
-  
-    <ol class="carousel-indicators">
-      
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to="5"></li>
-      <li data-target="#myCarousel" data-slide-to="6"></li>
-      <li data-target="#myCarousel" data-slide-to="7"></li>
-      <li data-target="#myCarousel" data-slide-to="8"></li>
-    </ol>
-
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <img src="assets/images/monkees.png" img class="img-responsive" alt="Monkees" width="260" height="100">
-        <div class="carousel-caption">
-          <h3>Great Night</h3>
-          <p>The atmosphere was great.</p>
-        </div>      
-      </div>
-
-      <div class="item">
-        <img src="assets/images/cover.png" img class="img-responsive" alt="Cover Photo" width="260" height="100">
-        <div class="carousel-caption">
-          <h3>Monkees</h3>
-          <p>Thank you.</p>
-        </div>      
-      </div>
-    
-      <div class="item">
-        <img src="assets/images/band.png" img class="img-responsive" alt="Band Photo" width="260" height="100">
-        <div class="carousel-caption">
-          <h3>Monkees</h3>
-          <p>Hi to all our fans.</p>
-        </div>      
-      </div>
-      
-       <div class="item">
-         <img src="assets/images/cover1.jpg" img class="img-responsive" alt="Band Photo" width="260" height="100">
-        <div class="carousel-caption">
-          <h3>Monkees</h3>
-          <p>Thanks to all our fans.</p>
-        </div>      
-      </div>
-      
-      <div class="item">
-        <img src="assets/images/cover2.png" img class="img-responsive" alt="Band Photo" width="260" height="100">
-        <div class="carousel-caption">
-          <h3>Monkees</h3>
-          <p>Thanks.</p>
-        </div>      
-      </div>
-      
-      <div class="item">
-        <img src="assets/images/cover3.jpg" img class="img-responsive" alt="Band Photo" width="260" height="100">
-        <div class="carousel-caption">
-          <h3>Monkees</h3>
-          <p>Hi to all our fans.</p>
-        </div>      
-      </div>
-      
-       <div class="item">
-        <img src="assets/images/album.jpg" img class="img-responsive" alt="Band Photo" width="260" height="100">
-        <div class="carousel-caption">
-          <h3>Monkees</h3>
-          <p>Hi to all our fans.</p>
-        </div>      
-      </div>
-      
-       <div class="item">
-        <img src="assets/images/album2.jpg" img class="img-responsive" alt="Band Photo" width="260" height="100">
-        <div class="carousel-caption">
-          <h3>Monkees</h3>
-          <p>Hello All.</p>
-        </div>      
-      </div>
-    </div>
-      
-  
-      
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
-
-
-<!-- Container (About Section) -->
-<div id="band" class="container text-left">
-  <h3 class="text-center"><em><strong>THE MONKEES</h3></strong></em>
-  <p class="text-center"<em><strong>Remember us? Hey Hey, we're the Monkees!</em></strong></p>
-  
-  <p>We're delighted to be back again in full-swing. We're a 60's Band, over 50 years old but we're still going strong!</p>
-  
-  <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>Want to find out more about us and catch-up on the latest news, head over to <a href="video.html" style="color:red"><strong>Video</strong></a><br>
-  
-  <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>  Want to listen to our back catalogue of old music, head on over to our <a href="audio.html" style="color:red"><Strong>Audio</strong></a><br>
-  
-  <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>Want to book us for Christmas parties or Weddings, head on over to our <a href="bookings.html" style="color:red"><strong>Bookings</strong></a><br>
-  
-  <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>Want to contact us, head over to <a href="contact.html" style="color:red"><strong>Contact</strong></a> <br>
-  
-  <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>See the Monkees Live Almanac and check the Calendar<a href="https://www.monkeeslivealmanac.com/"style="color:red" ><strong>Monkees Live Almanac</strong></a> <br><br>
-  
- </div>
-  
- 
-  
-  <!--Using bootstrap grid for band member photos.-->
-  <div class="row">
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo mike nesbit">
-      <p class="text-center"><strong>Mike Nesbit</strong></p><br>
-      <a href="#demo" data-toggle="collapse">
-        <img src="assets/images/mn.jpg" class="img-circle person" alt="Mike Nesbit" width="100" height="100">
-      </a>
-      <div id="demo" class="collapse">
-        <p>Guitarist and Lead Vocalist</p>
-        <p>Loves long walks on the beach</p>
-        <p>Member since 1988</p>
-      </div>
-    </div>
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo micky dolenz">
-     
-      <p class="text-center"><strong>Micky Dolenz</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="assets/images/md.jpg" class="img-circle person" img class="img-responsive" alt="Micky Dolenz" width="100" height="100">
-      </a>
-      <div id="demo2" class="collapse">
-        <p>Loves music</p>
-        <p>Member since 1966</p>
-      </div>
-    </div>
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo davy jones">
-     
-      <p class="text-center"><strong>Davy Jones</strong></p><br>
-      <a href="#demo3" data-toggle="collapse">
-        <img src="assets/images/dj.jpg" class="img-circle person" img class="img-responsive" alt="Davy Jones" width="100" height="100">
-      </a>
-      <div id="demo3" class="collapse">
-        <p>Loves music</p>
-        <p>Member since 1966</p>
-      </div>
-    </div>
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo peter tork">
-     
-      <p class="text-center"><strong>Peter Tork</strong></p><br>
-      <a href="#demo3" data-toggle="collapse">
-        <img src="assets/images/pt.jpg" class="img-circle person" img class="img-responsive" alt="Peter Tork" width="100" height="100">
-      </a>
-      <div id="demo3" class="collapse">
-        <p>Loves music</p>
-        <p>Member since 1966</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<!--Container (Fan Comments Section)-->
-
-<div id="fans" class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 our fans">
-		  <h3 class="text-center">See what our fans say!</h3>
-		</div>
-	  
-  <div id="fans" class="container">
-	  <ul class="nav nav-tabs">
-		  <li class="active"><a data-toggle="tab" href="#home">Julie</a></li>
-		  <li><a data-toggle="tab" href="#menu1">Mike</a></li>
-		  <li><a data-toggle="tab" href="#menu2">Brian</a></li>
-	  </ul>
-  </div>
-  
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h2>Julie Miles</h2>
-      <p>The Monkees are the best group ever. Can't get enough of them.</p>
-    </div>
-	
-    <div id="menu1" class="tab-pane fade">
-      <h2>Mike Smith</h2>
-      <p>The Monkees are just wonderful! Listen to their music all the time.</p>
-    </div>
-	
-    <div id="menu2" class="tab-pane fade">
-      <h2>Brian Dunne</h2>
-      <p>Been a fan for over 50 years now and will be for the next 50 years!</p>
-    </div>
-	
-  </div>
-</div>
-</div>
-
-
-
-
-
-<footer class="text-center fixed-bottom">
-  <div id="footer" class="container text-center fixed bottom">
- 
-    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-    </a><br><br>
-  
-  
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fan-sign-up">
-    <a data-toggle="modal" href="#signUpModal"><strong>Become a Monkees Fan now! Sign-up</a></strong>
-    
-    </div>
-  
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 website">
-    <p class="website"><strong>©2018The Monkees | Created by Deirdre Weldon |</strong> <br><strong><a href="#band">About</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a> | </p></strong>
-
     </div>
 
-  <div id="footer-details"  class="row">
-           
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social media">
-      <h5 class="general"><strong>Like us on Social Media!</strong></h5>
-    </div>
-    
-    <!--Referred to http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/-->
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 all-links text-center">
-      <ul class="list-inline social-links">
-        <li><a target="_blank " href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook "></i></a></li>
-        <li><a target="_blank " href="https://twitter.com/TheMonkees?lang=en"><i class="fa fa-twitter "></i></a></li>
-        <li><a target="_blank " href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube "></i></a></li>
-        <li><a target="_blank " href="https://plus.google.com/communities/103488553531622869293/stream/5ac7d1b9-b180-4ac1-9b91-53a351fb30d3"><i class="fa fa-google-plus"></i></a></li></br></br>
-                    
-        <li><a target="_blank " href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram"></i></a></li>
-        <li><a target="_blank " href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify"></i></a></li>
-        <li><a target="_blank " href="https://www.pinterest.ie/breebaffordmua/the-monkees/"><i class="fa fa-pinterest"></i></a></li>
-        <li><a target="_blank " href="https://www.flickr.com/photos/97704848@N06/galleries/72157634192253587/"><i class="fa fa-flickr"></i></a></li>
-                     
-      </ul>
-    </div>
-  </div>
-  </div>
-  
-        
-</footer>
-    
-<!--SIGN-UP and LOGIN MODALS (Taken from W3 Schools example). Also some elements from "Whiskey Drop" Mini Project (Call-out/Sign-up modal), with references to other resoures. In particular, I referred to online resources for form validation and found this one particularly good, a (https://daverupert.com/2017/11/happier-html5-forms/), as it gave a very simple and quick solution to error handling in form fields, together with css highlighting incorrect or ommited inputs in red.  I also found this developers website very useful, as it helped to explain the powerful way that HTML5 input type boxes can be utilised to control incorrect user input, and gave some excellent examples and resources (https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation).-->
 
-  <!--LOGIN MODEL-->
-  <div class="modal fade" id="loginModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="padding:35px 50px;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
-        </div>
-        <div class="modal-body" style="padding:40px 50px;">
-          <form role="form">
-            <div class="form-group">
-              <label for="username" style="display:block"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input id="username" placeholder="(required)" type="username" required>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+        <ol class="carousel-indicators">
+
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+        </ol>
+
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/images/monkees.png" img class="img-responsive" alt="Monkees" width="260" height="100">
+                <div class="carousel-caption">
+                    <h3>Great Night</h3>
+                    <p>The atmosphere was great.</p>
+                </div>
             </div>
-            <div class="form-group">
-              <label for="password"style="display:block"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input id="password" placeholder="(required)" type="password" required>
+
+            <div class="item">
+                <img src="assets/images/cover.png" img class="img-responsive" alt="Cover Photo" width="260" height="100">
+                <div class="carousel-caption">
+                    <h3>Monkees</h3>
+                    <p>Thank you.</p>
+                </div>
             </div>
-            <div class="checkbox">
-                <label for="checkbox" style: "display:block">Remember me
-                <input type="checkbox"></label>
+
+            <div class="item">
+                <img src="assets/images/band.png" img class="img-responsive" alt="Band Photo" width="260" height="100">
+                <div class="carousel-caption">
+                    <h3>Monkees</h3>
+                    <p>Hi to all our fans.</p>
+                </div>
             </div>
-              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
-          </form>
+
+            <div class="item">
+                <img src="assets/images/cover1.jpg" img class="img-responsive" alt="Band Photo" width="260" height="100">
+                <div class="carousel-caption">
+                    <h3>Monkees</h3>
+                    <p>Thanks to all our fans.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/images/cover2.png" img class="img-responsive" alt="Band Photo" width="260" height="100">
+                <div class="carousel-caption">
+                    <h3>Monkees</h3>
+                    <p>Thanks.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/images/cover3.jpg" img class="img-responsive" alt="Band Photo" width="260" height="100">
+                <div class="carousel-caption">
+                    <h3>Monkees</h3>
+                    <p>Hi to all our fans.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/images/album.jpg" img class="img-responsive" alt="Band Photo" width="260" height="100">
+                <div class="carousel-caption">
+                    <h3>Monkees</h3>
+                    <p>Hi to all our fans.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="assets/images/album2.jpg" img class="img-responsive" alt="Band Photo" width="260" height="100">
+                <div class="carousel-caption">
+                    <h3>Monkees</h3>
+                    <p>Hello All.</p>
+                </div>
+            </div>
         </div>
-         <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-            Not a Member?<a data-toggle="modal" href="#signUpModal"><p class="signup">Sign-Up!</p></a>
-          <a href="#">Forgot Password?</a>
-        </div>
-      </div>
-      
+
+
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
-  </div> 
-  
-  
-<!--SIGN-UP MODAL-->
 
 
+    <!-- Container (About Section) -->
+    <div id="band" class="container text-left">
+        <h3 class="text-center"><em><strong>THE MONKEES</h3></strong></em>
+        <p class="text-center" <em><strong>Remember us? Hey Hey, we're the Monkees!</em></strong></p>
 
- <div class="modal fade" id="signUpModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="padding:35px 50px;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Sign-Up</h4>
-        </div>
-        <div class="modal-body" style="padding:40px 50px;">
-          <form action="terms-of-use.html">
-        <div class="form-group">
-              <label for="username"><span class="glyphicon glyphicon-user"></span> Username</label>
-              <input id="username1" placeholder="(required)" type="username" required>
-            </div>
-            <div class="form-group">
-              <label for="password"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input id="password1" placeholder="(required)" type="password" required>
-            </div>
-			<div class="form-group">
-			       <label for="repeat-password"><b>Repeat Password</b></label>
-			       <input id="repeat password" placeholder="(required)" type="repeat password" required>
-			</div>
-            <div class="checkbox">
-                <label for="checkbox" style: "display:block">Remember me
-                <input type="checkbox"></label>
-            </div>
-			
-			<p>By creating an account you agree to our <a href="terms-of-use.html" style="color: red" >Terms of Use.</a></p>
-			
-              <button type="submit" class="btn btn-success btn-block"><i class="fa fa-registered" aria-hidden="true"></i><strong>Sign-Up</strong></button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
-		  <p>Forgot <a href="#reset-password">Password?</a></p>
-        </div>
-      </div>
-      
+        <p>We're delighted to be back again in full-swing. We're a 60's Band, over 50 years old but we're still going strong!</p>
+
+        <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>Want to find out more about us and catch-up on the latest news, head over to <a href="video.html" style="color:red"><strong>Video</strong></a><br>
+
+        <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i> Want to listen to our back catalogue of old music, head on over to our <a href="audio.html" style="color:red"><Strong>Audio</strong></a><br>
+
+        <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>Want to book us for Christmas parties or Weddings, head on over to our <a href="bookings.html" style="color:red"><strong>Bookings</strong></a><br>
+
+        <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>Want to contact us, head over to <a href="contact.html" style="color:red"><strong>Contact</strong></a> <br>
+
+        <i class="fa fa-spinner fa-spin" id-"spin" style="font-size:24px" aria-hidden="true"></i>See the Monkees Live Almanac and check the Calendar<a href="https://www.monkeeslivealmanac.com/" style="color:red"><strong>Monkees Live Almanac</strong></a> <br><br>
+
     </div>
-   
-</div> 
-    
-
-   
- 
 
 
-<!--JQUERY FOR TOOLTIP, TO ADD SMOOTH SCROLLING-->
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-      // Store hash
-      var hash = this.hash;
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    }  
-  });
-})
-</script>
+
+    <!--Using bootstrap grid for band member photos.-->
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo mike nesbit">
+            <p class="text-center"><strong>Mike Nesbit</strong></p><br>
+            <a href="#demo" data-toggle="collapse">
+                <img src="assets/images/mn.jpg" class="img-circle person" alt="Mike Nesbit" width="100" height="100">
+            </a>
+            <div id="demo" class="collapse">
+                <p>Guitarist and Lead Vocalist</p>
+                <p>Loves long walks on the beach</p>
+                <p>Member since 1988</p>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo micky dolenz">
+
+            <p class="text-center"><strong>Micky Dolenz</strong></p><br>
+            <a href="#demo2" data-toggle="collapse">
+                <img src="assets/images/md.jpg" class="img-circle person" img class="img-responsive" alt="Micky Dolenz" width="100" height="100">
+            </a>
+            <div id="demo2" class="collapse">
+                <p>Loves music</p>
+                <p>Member since 1966</p>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo davy jones">
+
+            <p class="text-center"><strong>Davy Jones</strong></p><br>
+            <a href="#demo3" data-toggle="collapse">
+                <img src="assets/images/dj.jpg" class="img-circle person" img class="img-responsive" alt="Davy Jones" width="100" height="100">
+            </a>
+            <div id="demo3" class="collapse">
+                <p>Loves music</p>
+                <p>Member since 1966</p>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 photo peter tork">
+
+            <p class="text-center"><strong>Peter Tork</strong></p><br>
+            <a href="#demo3" data-toggle="collapse">
+                <img src="assets/images/pt.jpg" class="img-circle person" img class="img-responsive" alt="Peter Tork" width="100" height="100">
+            </a>
+            <div id="demo3" class="collapse">
+                <p>Loves music</p>
+                <p>Member since 1966</p>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script src="js/validation.js"></script>
+    <!--Container (Fan Comments Section)-->
+
+    <div id="fans" class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 our fans">
+                <h3 class="text-center">See what our fans say!</h3>
+            </div>
+
+            <div id="fans" class="container">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#home">Julie</a></li>
+                    <li><a data-toggle="tab" href="#menu1">Mike</a></li>
+                    <li><a data-toggle="tab" href="#menu2">Brian</a></li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active">
+                    <h2>Julie Miles</h2>
+                    <p>The Monkees are the best group ever. Can't get enough of them.</p>
+                </div>
+
+                <div id="menu1" class="tab-pane fade">
+                    <h2>Mike Smith</h2>
+                    <p>The Monkees are just wonderful! Listen to their music all the time.</p>
+                </div>
+
+                <div id="menu2" class="tab-pane fade">
+                    <h2>Brian Dunne</h2>
+                    <p>Been a fan for over 50 years now and will be for the next 50 years!</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer class="text-center fixed-bottom">
+        <div id="footer" class="container text-center fixed bottom">
+
+            <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+            </a><br><br>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fan-sign-up">
+                <a data-toggle="modal" href="#signUpModal"><strong>Become a Monkees Fan now! Sign-up</a></strong>
+
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 website">
+                <p class="website"><strong>©2018The Monkees | Created by Deirdre Weldon |</strong> <br><strong><a href="#band">About</a> | <a href="terms-of-use.html">Terms of Use</a> | <a href="contact.html">Contact</a> | </p></strong>
+
+            </div>
+
+            <div id="footer-details" class="row">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 social media">
+                    <h5 class="general"><strong>Like us on Social Media!</strong></h5>
+                </div>
+
+                <!--Referred to http://ksloan.net/css-color-definitions-for-font-awesome-social-icons/-->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 all-links text-center">
+                    <ul class="list-inline social-links">
+                        <li><a target="_blank " href="https://www.facebook.com/TheMonkees/"><i class="fa fa-facebook "></i></a></li>
+                        <li><a target="_blank " href="https://twitter.com/TheMonkees?lang=en"><i class="fa fa-twitter "></i></a></li>
+                        <li><a target="_blank " href="https://www.youtube.com/user/themonkees"><i class="fa fa-youtube "></i></a></li>
+                        <li><a target="_blank " href="https://plus.google.com/communities/103488553531622869293/stream/5ac7d1b9-b180-4ac1-9b91-53a351fb30d3"><i class="fa fa-google-plus"></i></a></li></br></br>
+
+                        <li><a target="_blank " href="https://www.instagram.com/themonkees/?hl=en"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank " href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"><i class="fa fa-spotify"></i></a></li>
+                        <li><a target="_blank " href="https://www.pinterest.ie/breebaffordmua/the-monkees/"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a target="_blank " href="https://www.flickr.com/photos/97704848@N06/galleries/72157634192253587/"><i class="fa fa-flickr"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <!--SIGN-UP and LOGIN MODALS (Taken from W3 Schools example). Also some elements from "Whiskey Drop" Mini Project (Call-out/Sign-up modal), with references to other resoures. In particular, I referred to online resources for form validation and found this one particularly good, a (https://daverupert.com/2017/11/happier-html5-forms/), as it gave a very simple and quick solution to error handling in form fields, together with css highlighting incorrect or ommited inputs in red.  I also found this developers website very useful, as it helped to explain the powerful way that HTML5 input type boxes can be utilised to control incorrect user input, and gave some excellent examples and resources (https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation).-->
+
+    <!--LOGIN MODEL-->
+    <div class="modal fade" id="loginModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content text-center">
+                <div class="modal-header" style="padding:35px 50px;">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+                </div>
+                <div class="modal-body" style="padding:40px 50px;" <form role="form">
+                    <div class="form-group">
+                        <label for="username" style="display:block"><span class="glyphicon glyphicon-user"></span> Username</label>
+                        <input id="username" placeholder="(required)" type="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" style="display:block"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                        <input id="password" placeholder="(required)" type="password" required>
+                    </div>
+
+                    <div class="modal-body1">
+                        <div class="form-group">
+                            <label for="checkbox" style="display:block">Remember Me
+                                <input type="checkbox"></label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                    Not a Member?<a data-toggle="modal" href="#signUpModal">
+                        <p class="signup">Sign-Up!</p>
+                    </a>
+                    <a href="#">Forgot Password?</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!--SIGN-UP MODAL-->
+
+    <div class="modal fade" id="signUpModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content text-left">
+                <div class="modal-header" style="padding:35px 50px;">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Sign Up</h4>
+                </div>
+                <div class="modal-body" style="padding:40px 50px;">
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="username" style="display:block"><span class="glyphicon glyphicon-user"></span> Username</label>
+                            <input id="username1" placeholder="(required)" type="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password" style="display:block"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                            <input id="password1" placeholder="(required)" type="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="repeat-password" style="display:block"><span class="glyphicon glyphicon-eye-open"></span>Repeat Password</label>
+                            <input id="repeat password" placeholder="(required)" type="password" required>
+                        </div>
+
+                        <div class="modal-body1">
+                            <div class="form-group">
+                                <label for="checkbox" style="display:block">Remember Me
+                                    <input type="checkbox"></label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span>Sign Up</button>
+                        <p>By creating an account you agree to our <a href="terms-of-use.html" style="color: red">Terms of Use.</a></p>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+
+
+                    <p>Forgot <a href="#reset-password">Password?</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+    <!--JQUERY FOR TOOLTIP, TO ADD SMOOTH SCROLLING-->
+    <script>
+        $(document).ready(function() {
+            // Initialize Tooltip
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+                    // Store hash
+                    var hash = this.hash;
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        })
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/validation.js"></script>
 
 </body>
 
