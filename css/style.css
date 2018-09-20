@@ -1,4 +1,4 @@
- /* CREDIT TO - contributor - https://stackoverflow.com/questions/9267700/how-do-i-get-rid-of-the-horizontal-scroll-bar-at-the-bottom*/
+/* CREDIT TO - contributor - https://stackoverflow.com/questions/9267700/how-do-i-get-rid-of-the-horizontal-scroll-bar-at-the-bottom*/
 
 body {
       font: 400 15px/1.8 Lato, sans-serif;
@@ -31,7 +31,7 @@ body {
   .carousel-inner img {
       width: 60%; /* Set width to 100% */
       margin:auto;
-      height: 80%%;
+      height: 80%;
       margin-top: 10px;
 
     }
@@ -256,10 +256,11 @@ footer {
 
 .monkees {margin-top: 100px;}
 
-.monkees0 {margin-top: 50px;
+.monkees0 {margin-top: 35px;
+           margin-bottom: 0px
 }
-.monkees1 {margin-top: 25px;
-           margin-bottom: 50px;
+.monkees1 {margin-top: 15px;
+           margin-bottom: 40px;
 }
 
 .monkees2 {margin-top: 100px;
@@ -274,20 +275,25 @@ footer {
 }
 
 #contact {margin-top: 75px;
+        
 }
 
+#form-group {width: 500px;
+}   
+
+input { width: 50%; box-sizing: border-box; height: 28px; 
+    text-align: center;
+}
+#textarea {height: 200px;}
+
+#textarea1 {height: 100px;}
+
+#submit-box {width: 30%;}
 
 
-
-#check0 {display: block;}
-#check1 {display: block;}
-
-
-
-  .social-links {
+.social-links {
     padding-bottom: 15px;
 }
-/*use border-radius to create perfect circle around edges, which will be semi-transparent.  Setting border-radious to 50% and styling font-awesome icon, as well as reusing transition hover effects for .cv-pdf hover.*/
 
 
 .fa-twitter  {color: #fafafa;
@@ -355,15 +361,22 @@ footer {
 }
 
 
-
 .modal-footer a .signup {color: red;}
 
 
+.container {color: black;
+  
+}
 
-.container {color: black;}
+.general {color: black;
+  
+}
 
-.general {color: black;}
 
+#register {color: red;
+  
+}
 
-
-#register {color: red;}
+input.error {
+  border-color: red;
+}
