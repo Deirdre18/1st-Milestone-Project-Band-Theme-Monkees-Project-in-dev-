@@ -1,5 +1,3 @@
-
-
 # The Monkees Website  
   
 This project is the second Milestone Project for Full-Stack Diploma in Software Development. It is a User Centric Frontend Development Project, using HTML5 and CSS3 and based on a 'Band' Theme – The Monkees, who are a 1960's band. The project entails building a static front-end only website.  
@@ -112,29 +110,40 @@ From a testing view-point, I've tested responsiveness on both mobile and desktop
 **Testing across desktop (using developer tools) and mobile browsers**
     
       
- I have tested the Monkees website and on the above desktop browsers, and it works fine. I also tested on mobile browsers, however on mobile Chrome I could not play MP4 video. I therefore included a YouTube Video of “Daydream Believer”. I used both Firefox and Chrome Developer tools to test the website in responsive mode - Apple iPad Air2, Apple iPad Mini2, Apple iPad iPhone 6s, Google nexus 4,5,6,7, Laptop (1280 x 720 and 1366 x 768), Nokia Lumia 520, Samsung Galaxy Note 3, Samsung Galaxy S5 and S7 and it renders well in responsive mode.  
+I have tested the Monkees website and on the above desktop browsers, and it works fine. I also tested on mobile browsers, however on mobile Chrome I could not play MP4 video. I therefore included a YouTube Video of “Daydream Believer”. I used both Firefox and Chrome Developer tools to test the website in responsive mode - Apple iPad Air2, Apple iPad Mini2, Apple iPad iPhone 6s, Google nexus 4,5,6,7, Laptop (1280 x 720 and 1366 x 768), Nokia Lumia 520, Samsung Galaxy Note 3, Samsung Galaxy S5 and S7 and it renders well in responsive mode.  
       
 **Testing Audio and Video**
     
 I tested all links to Video and Audio pages to ensure the music tracks played and all play very well, except, as explained above, on mobile chrome the MP4 video doesn't play. I tested on mobile browsers using both landscape and portrait mode. I added both the .ogg and .webm extension to source src files in video controls. The Ogg container format with the Theora video codec and the Vorbis audio codec is supported in desktop/mobile Gecko (Firefox), Chrome, and Opera. An add-on can be installed for Safari - [Supported Media Formats](https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats/). I tested both audio and video pages in responsive mode on both firefox and chrome by using developer tools. The video did play across responsive and desktop versions using developer tools, however on my own phone handset (Galaxy S5), which is an out-dated and an older version, I couldn't play the MP4 video in mobile chrome but I could play it on mobile firefox.  
       
+**Testing Forms (Sign-up and Login Modals, Contact and Bookings Forms)**
+
+For all of the above modal and form testing (see details of testing below!), I referred to online resources for form validation. I found this one particularly good, [Happier HTML5 Forms](https://daverupert.com/2017/11/happier-html5-forms/), as it gives a very simple and quick solution to error handling in form fields.  It also used CSS for highlighting incorrect or omitted inputs in red. 
+I also found Mozilla Developer website very useful, as it helped to explain the powerful way that HTML5 input type boxes can be utilised to control incorrect user input, and gives some excellent examples and resources [Mozilla Developer](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation).
+
 **Testing Sign-up**
-    
-      
-   I test the Sign-up modal and used my own email address and this works well, and I was directed to the “Terms of Use Page”.  
+          
+I tested the Sign-up modal extensively and added form validation (6 lines of javascript which added an eventListener to the input boxes, alerting if (for example) if fields were left unfilled. I used the (type="" required) attribute across all input boxes to alert that an input was a requirement. I also used CSS for a red border around unfilled input boxes. This, at least meant that forms couldn't be left uncompleted. However, as this is only a front-end project, there is no back-end and input validation is limited. For this modal, unfilled input fields are highlighted in red, and must be completed before the user can sign-up. The only input boxes in sign-up modal are Username and Password (both create a password and repeat it). There are no alerts for mismatched passwords or usernames, only for uncompleted input boxes. On successfully completing the form, the user is directed to 'Terms of Use' page.
       
 **Testing Login**
       
-  I have tested the Login modal, but as the project has no back-end development, the input doesn't go any further.  
-      
+Similar to Sign-up, I tested Login modal. The only input fields are username and password. This modal also has an option to sign-up, if not already done so, and can re-direct to Sign-up modal. Similar to sign-up modal, the login module alerts the user that all fields are required to be completed, and will not allow the user to login until all fields are filled. Those fields left unfilled are highlighted with a red border. 
+  
+**Testing Bookings Page (with Form)**
+
+Similar to above modal tests, the Bookings form has red bordered alerts if not all fields are completed, and doesn't allow the user to make bookings otherwise. In addition, fields for email address and phone number must be in the correct format, otherwise will prevent successful completion of the form.
+ 
+**Testing Contact Page (with Form)**
+
+Similar to above other input form tests, the Contact form has red bordered alerts if not all fields are completed, and doesn't allow the user to send a message otherwise. In addition, fields for email address and phone number must be in the correct format, otherwise will prevent successful completion of the form.
+   
 **Testing Terms of Use**
     
-      
-   I tested the 'Terms of Use' page to make sure that users could agree to the Terms of Use, and this works fine.  
+I tested the 'Terms of Use' page to make sure that users could agree to the Terms of Use, and this works fine.  
       
 ## **GitHub Version Control**  
       
- I used version control on an ongoing basis to back-up my code to a remote repository and used version control at regular intervals throughout development. I did  make quite a large number of commits, as I revised the project and made a number of changes.  
+I used version control on an ongoing basis to back-up my code to a remote repository and used version control at regular intervals throughout development. I did  make quite a large number of commits, as I revised the project and made a number of changes.  
   
 ## **Deployment**  
   
@@ -155,10 +164,10 @@ The content contained in the project is mainly my own and anywhere I've used any
   
 ### **Media**
 
-  
 - The photos used in this site were the boiler plate files from Code Institute, which formed part the 'assets' folder in my development IDE (Cloud9).  
   
 ### **Acknowledgements**  
   
 I received inspiration for this project from both the requirements of the full-stack Diploma at Code Institute and from the inspiring nature of researching the theme of the Monkees band and found it a very interesting and creative endeavour.
+
 

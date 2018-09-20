@@ -174,32 +174,35 @@
     </footer>
 
 
-    <!--SIGN-UP and LOGIN MODALS (Taken from W3 Schools example). Also some elements from "Whiskey Drop" Mini Project (Call-out/Sign-up modal)-->
+   <!--SIGN-UP and LOGIN MODALS (Taken from W3 Schools example). Also some elements from "Whiskey Drop" Mini Project (Call-out/Sign-up modal), with references to other resoures. In particular, I referred to online resources for form validation and found this one particularly good, a (https://daverupert.com/2017/11/happier-html5-forms/), as it gave a very simple and quick solution to error handling in form fields, together with css highlighting incorrect or ommited inputs in red.  I also found this developers website very useful, as it helped to explain the powerful way that HTML5 input type boxes can be utilised to control incorrect user input, and gave some excellent examples and resources (https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation).-->
 
     <!--LOGIN MODEL-->
     <div class="modal fade" id="loginModal" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
-            <div class="modal-content">
+            <div class="modal-content text-center">
                 <div class="modal-header" style="padding:35px 50px;">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
                 </div>
-                <div class="modal-body" style="padding:40px 50px;">
-                    <form role="form">
+                <div class="modal-body" style="padding:40px 50px;" <form role="form">
+                    <div class="form-group">
+                        <label for="username" style="display:block"><span class="glyphicon glyphicon-user"></span> Username</label>
+                        <input id="username" placeholder="(required)" type="username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" style="display:block"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                        <input id="password" placeholder="(required)" type="password" required>
+                    </div>
+
+                    <div class="modal-body1">
                         <div class="form-group">
-                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-                            <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                            <label for="checkbox" style="display:block">Remember Me
+                                <input type="checkbox"></label>
                         </div>
-                        <div class="form-group">
-                            <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-                            <input type="text" class="form-control" id="psw" placeholder="Enter password">
-                        </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" value="" checked>Remember me</label>
-                        </div>
-                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -215,49 +218,55 @@
     </div>
 
 
+
     <!--SIGN-UP MODAL-->
 
     <div class="modal fade" id="signUpModal" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
-            <div class="modal-content">
+            <div class="modal-content text-left">
                 <div class="modal-header" style="padding:35px 50px;">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4><span class="glyphicon glyphicon-lock"></span> Sign-Up</h4>
+                    <h4><span class="glyphicon glyphicon-lock"></span> Sign Up</h4>
                 </div>
                 <div class="modal-body" style="padding:40px 50px;">
-                    <form action="terms-of-use.html">
+                    <form role="form">
                         <div class="form-group">
-                            <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
-                            <input type="text" class="form-control" id="usrname1" placeholder="Enter email">
+                            <label for="username" style="display:block"><span class="glyphicon glyphicon-user"></span> Username</label>
+                            <input id="username1" placeholder="(required)" type="username" required>
                         </div>
                         <div class="form-group">
-                            <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-                            <input type="text" class="form-control" id="psw1" placeholder="Enter password">
+                            <label for="password" style="display:block"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+                            <input id="password1" placeholder="(required)" type="password" required>
                         </div>
                         <div class="form-group">
-                            <label for="psw-repeat"><b>Repeat Password</b></label>
-                            <input type="password" placeholder="Repeat Password" name="psw1-repeat" required>
-                        </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox" value="" checked>Remember me</label>
+                            <label for="repeat-password" style="display:block"><span class="glyphicon glyphicon-eye-open"></span>Repeat Password</label>
+                            <input id="repeat password" placeholder="(required)" type="password" required>
                         </div>
 
+                        <div class="modal-body1">
+                            <div class="form-group">
+                                <label for="checkbox" style="display:block">Remember Me
+                                    <input type="checkbox"></label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span>Sign Up</button>
                         <p>By creating an account you agree to our <a href="terms-of-use.html" style="color: red">Terms of Use.</a></p>
 
-                        <button type="submit" class="btn btn-success btn-block"><i class="fa fa-registered" aria-hidden="true"></i><strong>Sign-Up</strong></button>
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+
+
                     <p>Forgot <a href="#reset-password">Password?</a></p>
                 </div>
             </div>
-
         </div>
-    </div>
 
+    </div>
+    </div>
 
     <!--JQUERY FOR TOOLTIP, TO ADD SMOOTH SCROLLING-->
     <script>
