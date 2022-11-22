@@ -1,6 +1,6 @@
 # The Monkees Website  
   
-This project is the second Milestone Project for Full-Stack Diploma in Software Development. It is a User Centric Frontend Development Project, using HTML5 and CSS3 and based on a 'Band' Theme – The Monkees, who are a 1960's band. The project entails building a static front-end only website.  
+This project is the first Milestone Project for Full-Stack Diploma in Software Development. It is a User Centric Frontend Development Project, using HTML5 and CSS3 and based on a 'Band' Theme – The Monkees, who are a 1960's band. The project entails building a static front-end only website.  
   
 ## UX Design  
   
